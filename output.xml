@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Wind in Our Sails: Developing a Reusable and Maintainable Dutch Maritime History Knowledge Graph</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown">
+<p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2021-12-02">2021-12-02</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+<forename type="first">Stijn</forename>
+<surname>Schouten</surname>
+</persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science Amsterdam</orgName>
+								<orgName type="institution">Vrije Universiteit Amsterdam</orgName>
+								<address>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+<forename type="first">Victor</forename>
+<surname>De Boer</surname>
+</persName>
+							<email>v.de.boer@vu.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science Amsterdam</orgName>
+								<orgName type="institution">Vrije Universiteit Amsterdam</orgName>
+								<address>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+<forename type="first">Lodewijk</forename>
+<surname>Petram</surname>
+</persName>
+							<email>lodewijk.petram@huygens.knaw.nl</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Huygens Instituut Amsterdam</orgName>
+								<address>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+<forename type="first">Marieke</forename>
+<surname>Van Erp</surname>
+</persName>
+						</author>
+						<title level="a" type="main">The Wind in Our Sails: Developing a Reusable and Maintainable Dutch Maritime History Knowledge Graph</title>
+					</analytic>
+					<monogr>
+						<title level="m">Proceedings of the 11th on Knowledge Capture Conference</title>
+						<meeting>the 11th on Knowledge Capture Conference						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2021-12-02"/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1145/3460210.3493548</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application ident="GROBID" version="0.7.1" when="2023-06-01T13:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		<list type="dataset">
+<dataset type="tabular data" xml:id="dataset-1"/>
+</list>
+<list type="dataInstance">
+<dataInstance cert="0.9900968074798584" corresp="#dataset-1" reuse="false" xml:id="dataInstance-1"/>
+</list>
+</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Knowledge Graph</term>
+					<term>Digital Humanities</term>
+					<term>Maritime history</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<p>
+<s coords="1,53.80,228.10,241.75,8.97;1,53.80,239.05,107.05,8.97" xml:id="sentence-0">Digital sources are more prevalent than ever but effectively using them can be challenging.</s>
+<s coords="1,163.09,239.05,130.94,8.97;1,53.80,250.01,240.24,8.97;1,53.80,260.97,203.86,8.97" xml:id="sentence-1">One core challenge is that digitized sources are often distributed, thus forcing researchers to spend time collecting, interpreting, and aligning different sources.</s>
+<s coords="1,260.16,260.97,35.38,8.97;1,53.80,271.93,240.24,8.97;1,53.80,282.89,195.54,8.97" xml:id="sentence-2">A knowledge graph can accelerate research by providing a single connected source of truth that humans and machines can query.</s>
+<s coords="1,251.58,282.89,42.46,8.97;1,53.80,293.85,240.24,8.97;1,53.80,304.81,154.11,8.97" xml:id="sentence-3">During two design-test cycles, we convert four data sets from the historical maritime domain into a knowledge graph.</s>
+<s coords="1,210.15,304.81,83.88,8.97;1,53.80,315.77,240.24,8.97;1,53.80,326.73,189.55,8.97" xml:id="sentence-4">The focus during these cycles is on creating a sustainable and usable approach that can be adopted in other linked data conversion efforts.</s>
+<s coords="1,245.85,326.73,49.17,8.97;1,53.80,337.68,240.40,8.97;1,53.80,348.64,240.23,8.97;1,53.80,359.60,148.54,8.97" xml:id="sentence-5">Furthermore, our knowledge graph is available for maritime historians and other interested users to investigate the daily business of the Dutch East India Company through a unified portal.</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="1,53.80,381.04,81.02,9.37">CCS CONCEPTS</head>
+<p>
+<s coords="1,53.80,394.86,240.25,8.97;1,53.80,406.21,168.12,8.41" xml:id="sentence-6">• Applied computing → Arts and humanities; • Information systems → Graph-based database models.</s>
+</p>
+</div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface lrx="612.0" lry="792.0" n="1" ulx="0.0" uly="0.0"/>
+		<surface lrx="612.0" lry="792.0" n="2" ulx="0.0" uly="0.0"/>
+		<surface lrx="612.0" lry="792.0" n="3" ulx="0.0" uly="0.0"/>
+		<surface lrx="612.0" lry="792.0" n="4" ulx="0.0" uly="0.0"/>
+		<surface lrx="612.0" lry="792.0" n="5" ulx="0.0" uly="0.0"/>
+		<surface lrx="612.0" lry="792.0" n="6" ulx="0.0" uly="0.0"/>
+		<surface lrx="612.0" lry="792.0" n="7" ulx="0.0" uly="0.0"/>
+		<surface lrx="612.0" lry="792.0" n="8" ulx="0.0" uly="0.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<p>
+<s coords="1,317.96,214.40,240.23,8.97;1,317.96,225.36,241.23,8.97;1,317.96,236.31,240.24,8.97;1,317.96,247.27,133.65,8.97" xml:id="sentence-7">the laborious process of collecting the different files, interpreting and refining the data, defining relations between different entities, and finally creating the queries and filtering operations needed to answer their research questions.</s>
+<s coords="1,454.71,247.27,105.00,8.97;1,317.96,258.23,240.24,8.97;1,317.96,269.19,240.57,8.97;1,317.96,280.15,188.36,8.97" xml:id="sentence-8">This can be a complex process; for one thing, interpretation of variables may differ between researchers [12] and the process is often repeated by every new researcher who wants to work with those data sets.</s>
+</p>
+<p>
+<s coords="1,327.92,291.11,230.28,8.97;1,317.96,302.07,241.75,8.97;1,317.96,313.03,95.26,8.97" xml:id="sentence-9">In this project, we create a knowledge graph of data related to the Dutch East India Company (Vereenigde Oostindische Compagnie, abbreviated as VOC).</s>
+<s coords="1,416.06,313.03,142.14,8.97;1,317.96,323.99,85.34,8.97" xml:id="sentence-10">The VOC is often considered the first multinational company.</s>
+<s coords="1,405.53,323.99,152.65,8.97;1,317.62,334.94,240.57,8.97;1,317.95,345.90,106.52,8.97" xml:id="sentence-11">It was a large Dutch trading company that was founded in 1602 and remained in business until the end of the eighteenth century [11].</s>
+<s coords="1,427.43,345.90,131.76,8.97;1,317.96,356.86,222.26,8.97" xml:id="sentence-12">The VOC kept records of its ships, their cargo, and the sailors and soldiers who ventured to Asia.</s>
+<s coords="1,542.41,356.86,15.78,8.97;1,317.96,367.82,240.24,8.97;1,317.96,378.78,240.24,8.97;1,317.69,389.74,242.02,8.97;1,317.96,400.70,240.23,8.97;1,317.96,411.66,26.86,8.97" xml:id="sentence-13">This information is contained in four large data sets, three of which are available online from the websites of the Dutch National Archive (VOC Opvarenden, or VOC Crew members) and the Huygens Institute (Dutch Asiatic Shipping, Bookkeeper General Batavia and Places).</s>
+<s coords="1,346.66,411.66,211.53,8.97;1,317.96,422.62,83.64,8.97" xml:id="sentence-14">The last data set was provided to us by the researchers from the Huygens Institute.</s>
+<s coords="1,404.13,422.62,154.06,8.97;1,317.96,433.57,240.24,8.97;1,317.96,444.53,240.23,8.97;1,317.96,455.49,165.02,8.97" xml:id="sentence-15">The datasets are described in more detail in Section 4. Making these data sets available in a well-structured knowledge graph allows digital humanities scholars to accelerate research with these rich and unique data [15].</s>
+<s coords="1,485.21,455.49,74.50,8.97;1,317.96,466.45,240.24,8.97;1,317.96,477.41,222.17,8.97" xml:id="sentence-16">While many humanities researchers work with structured data such as databases and spreadsheets, linked data is still uncharted territory for many.</s>
+<s coords="1,542.37,477.41,15.83,8.97;1,317.96,488.37,240.24,8.97;1,317.96,499.33,147.42,8.97" xml:id="sentence-17">This is partly due to unfamiliarity with the technology, and its at times steep learning curve to start using it [4].</s>
+</p>
+<p>
+<s coords="1,327.92,510.29,230.27,8.97;1,317.96,521.25,240.24,8.97;1,317.96,532.20,240.23,8.97;1,317.96,543.16,241.62,8.97" xml:id="sentence-18">The goal of this project is to design and develop a usable and sustainable knowledge graph, that will be hosted by the Huygens Institute, the research institute that manages three of the four data sets used in this project, and that aims to drive data-driven research.</s>
+<s coords="1,317.53,554.12,240.67,8.97;1,317.96,565.08,226.01,8.97" xml:id="sentence-19">We adopt an iterative design process; in each iteration we capture additional knowledge from domain experts and the data sets.</s>
+<s coords="1,546.20,565.08,11.99,8.97;1,317.96,576.04,229.72,8.97" xml:id="sentence-20">We are not the first to create linked data for historical resources (cf.</s>
+<s coords="1,549.93,576.04,9.26,8.97;1,317.75,587.00,240.45,8.97;1,317.69,597.96,11.00,8.97" xml:id="sentence-21">[4,  16]) or even the first to do this for the historical maritime domain (cf.</s>
+<s coords="1,330.93,597.96,227.27,8.97;1,317.96,608.92,240.24,8.97;1,317.96,619.88,105.57,8.97" xml:id="sentence-22">[8]) However, our work is the first to focus on sustainability of the knowledge graph, as well as in bringing together four Dutch historical maritime data sets.</s>
+</p>
+<p>
+<s coords="1,327.92,630.83,230.27,8.97;1,317.96,641.79,240.40,8.97;1,317.96,652.75,120.19,8.97" xml:id="sentence-23">The challenges in our design process are that the approach should be sustainable and that the designed artifact should be useful for researchers and domain experts.</s>
+<s coords="1,440.38,652.75,117.81,8.97;1,317.96,663.71,241.75,8.97;1,317.96,674.67,25.37,8.97" xml:id="sentence-24">Measuring and determining the most sustainable approach is not straightforward and can be subjective.</s>
+<s coords="1,345.55,674.67,212.65,8.97;1,317.96,685.63,241.62,8.97" xml:id="sentence-25">We therefore define four quality attributes that can be used to measure, steer, and lead the design to a sustainable solution.</s>
+</p>
+<p>
+<s coords="2,53.53,86.92,240.51,8.97;2,53.80,97.88,116.33,8.97" xml:id="sentence-26">These design requirements are set in cooperation with the project stakeholders and are as follows:</s>
+</p>
+<p>
+<s coords="2,69.77,111.39,224.27,8.97;2,78.21,122.35,19.94,8.97" xml:id="sentence-27">• Transparency: Clear and well-described design decisions and rules.</s>
+<s coords="2,69.77,133.31,225.78,8.97;2,78.21,144.27,29.95,8.97" xml:id="sentence-28">• Accessability: Results and intermediate results should be accessible.</s>
+<s coords="2,69.77,155.23,205.39,8.97" xml:id="sentence-29">• Re-usability: Re-usable methods and semantic models.</s>
+</p>
+<p>
+<s coords="2,69.77,166.19,225.79,8.97;2,78.21,177.15,16.75,8.97" xml:id="sentence-30">• Maintability: Future-proof knowledge graph and infrastructure.</s>
+</p>
+<p>
+<s coords="2,53.37,190.66,240.67,8.97;2,53.80,201.61,49.73,8.97" xml:id="sentence-31">We evaluate our knowledge graph using competency questions following [1].</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="2,53.80,223.32,103.79,9.37" n="2">RELATED WORK</head>
+<p>
+<s coords="2,53.53,237.14,242.02,8.97;2,53.80,248.10,240.24,8.97;2,53.80,259.06,240.24,8.97;2,53.80,270.02,182.12,8.97" xml:id="sentence-32">This project is on the intersection of computer science and humanities, therefore we discuss relevant related work from both disciplines, starting with best practices in knowledge modelling from the computer science/semantic web domain.</s>
+</p>
+<p>
+<s coords="2,63.76,280.98,231.26,8.97;2,53.80,291.94,240.24,8.97;2,53.80,302.89,90.27,8.97" xml:id="sentence-33">The design guidelines of developing an accessible, transparent, reusable, and maintainable knowledge graph are closely related to the FAIR [21] principles.</s>
+<s coords="2,146.32,302.89,147.73,8.97;2,53.80,313.85,240.23,8.97;2,53.80,324.81,85.03,8.97" xml:id="sentence-34">Waagmeester et al. [19] provide us with tips and pointers on how to develop a knowledge graph according to the FAIR principles.</s>
+<s coords="2,141.67,324.81,152.38,8.97;2,53.80,335.77,240.24,8.97;2,53.80,346.73,132.41,8.97" xml:id="sentence-35">Dimou [9] dives more into the technical side of knowledge graph engineering and inspires further research and comparison of these approaches.</s>
+<s coords="2,188.39,346.73,105.65,8.97;2,53.80,357.69,241.75,8.97;2,53.80,368.65,240.24,8.97;2,53.80,379.61,60.04,8.97" xml:id="sentence-36">Finally, Jovanovik [17] brings these together in his linked data application development methodology, which focuses both on FAIR principles and the technical implementation.</s>
+</p>
+<p>
+<s coords="2,63.76,390.57,230.27,8.97;2,53.80,401.52,101.15,8.97" xml:id="sentence-37">Our work is not the first to design a knowledge graph for the historical maritime domain.</s>
+<s coords="2,157.19,401.52,136.85,8.97;2,53.80,412.48,115.88,8.97" xml:id="sentence-38">De Boer et al. [8] started in 2014 with Dutch Ships and Sailors (DSS).</s>
+<s coords="2,172.47,412.48,121.57,8.97;2,53.80,423.44,240.47,8.97;2,53.80,434.40,166.86,8.97" xml:id="sentence-39">The researchers involved in this project connected four different data sets in a first effort to unify the scattered Dutch historical maritime data.</s>
+<s coords="2,222.99,434.40,71.05,8.97;2,53.80,445.36,188.39,8.97" xml:id="sentence-40">Additional work in this domain was carried out by Entjes [10] in 2015.</s>
+<s coords="2,244.44,445.36,49.60,8.97;2,53.80,456.32,240.24,8.97;2,53.80,467.28,240.23,8.97;2,53.80,478.24,84.17,8.97" xml:id="sentence-41">Both projects score high in terms of transparency and accessibility, with design and conversion decisions being documented and reusable mapping scripts made available.</s>
+<s coords="2,140.26,478.24,153.78,8.97;2,53.80,489.20,18.76,8.97" xml:id="sentence-42">In terms of re-usability, the verdict is less clear.</s>
+<s coords="2,74.81,489.20,219.23,8.97;2,53.80,500.15,240.24,8.97;2,53.80,511.11,197.42,8.97" xml:id="sentence-43">DSS uses elements from multiple general-purpose ontologies and data models, and combines these with concepts and classes from a specific DSS model to describe the maritime activities.</s>
+<s coords="2,253.07,511.11,40.96,8.97;2,53.80,522.07,240.24,8.97;2,53.80,533.03,240.47,8.97;2,53.47,542.01,240.57,10.95;2,53.53,554.95,240.51,8.97;2,53.80,565.91,241.62,8.97" xml:id="sentence-44">This design decision has definite upsides as it is generally recommended to apply widely used models and ontologies to enable interoperability with other graphs on the web. <ref target="#b0" type="bibr">1</ref> The re-use potential within the (maritime) history domain is low, however: it is unlikely that the dss:Ship concept is used between projects outside of the DSS sphere.</s>
+</p>
+<p>
+<s coords="2,63.76,576.87,231.79,8.97;2,53.80,587.83,240.24,8.97;2,53.80,596.80,241.75,10.95;2,53.80,609.74,240.24,8.97;2,53.80,620.70,190.50,8.97" xml:id="sentence-45">As a use case for the OntoME platform Beretta et al. [2] developed another ontology for Dutch maritime data on ships and sailors in 2019. <ref target="#b1" type="bibr">2</ref> OntoME is aimed at maintaining and distributing ontologies for digital heritage projects, and the approach of Beretta et al. therefore scores high in terms of maintainability.</s>
+<s coords="2,246.53,620.70,48.49,8.97;2,53.80,631.66,240.24,8.97;2,53.80,642.62,195.17,8.97" xml:id="sentence-46">Furthermore, their ontology is based on the CIDOC CRM [6], a widely accepted and highly detailed model for digital cultural heritage.</s>
+<s coords="2,251.20,642.62,42.83,8.97;2,53.80,653.58,240.23,8.97;2,53.80,664.54,241.75,8.97;2,53.80,675.50,32.96,8.97" xml:id="sentence-47">Concepts in this model, such as voyages, have a better chance of being re-used in other semantic web projects, thus offering great alignment possibilities.</s>
+<s coords="2,89.28,675.50,204.75,8.97;2,317.96,84.94,37.02,10.95" xml:id="sentence-48">It is accessible and available for re-use on the OntoME platform. <ref target="#b2" type="bibr">3</ref>
+</s>
+<s coords="2,357.71,86.92,200.49,8.97;2,317.96,97.88,240.24,8.97;2,317.96,108.84,63.34,8.97" xml:id="sentence-49">The transparency and accessibility design principles of Beretta et al. and, more generally, the OntoME platform, leave room for improvement.</s>
+<s coords="2,383.54,108.84,176.17,8.97;2,317.96,119.80,240.24,8.97;2,317.96,130.76,95.92,8.97" xml:id="sentence-50">Design decisions are not openly published, making it difficult for outsiders to understand and follow the thought process during the design.</s>
+</p>
+<p>
+<s coords="2,327.92,141.72,231.65,8.97" xml:id="sentence-51">Each of the discussed projects has its strengths and weaknesses.</s>
+<s coords="2,317.53,152.68,240.67,8.97;2,317.96,163.64,240.24,8.97;2,317.96,174.60,32.99,8.97" xml:id="sentence-52">We adapt some of their strong aspects in our project, such as the transparent methodology of DSS and the model maintainability of OntoME.</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="2,317.96,197.08,196.60,9.37;2,317.96,212.77,107.01,9.37" n="3">RESEARCH METHOD AND DESIGN 3.1 Design decisions</head>
+<p>
+<s coords="2,317.96,226.60,241.62,8.97" xml:id="sentence-53">In this project, the CIDOC CRM is selected as the ontology of choice.</s>
+<s coords="2,317.96,237.56,240.41,8.97;2,317.96,248.52,240.24,8.97;2,317.96,259.48,35.96,8.97" xml:id="sentence-54">In contrast to the aforementioned DSS project, this will allow for further interoperability with other Digital Humanities Linked Data solutions.</s>
+<s coords="2,356.42,259.48,201.77,8.97;2,317.96,270.43,241.62,8.97" xml:id="sentence-55">CIDOC CRM is a de facto domain standard and a safe choice; as it is for example also already used in the OntoME project.</s>
+</p>
+<p>
+<s coords="2,327.92,279.41,140.78,10.95" xml:id="sentence-56">We use GraphDB for data conversion. <ref target="#b3" type="bibr">4</ref>
+</s>
+<s coords="2,471.43,281.39,86.76,8.97;2,317.96,292.35,240.24,8.97;2,317.96,303.31,34.92,8.97" xml:id="sentence-57">GraphDB is transparent due to its interface; users can directly intuitively influence the mapping.</s>
+<s coords="2,356.07,303.31,202.12,8.97;2,317.96,314.27,121.73,8.97" xml:id="sentence-58">It is reusable due to the ability to import and export mapping tables between projects.</s>
+<s coords="2,441.93,314.27,116.26,8.97;2,317.96,325.23,175.38,8.97" xml:id="sentence-59">Maintainability also scores high due to the active development of the application.</s>
+<s coords="2,495.58,325.23,62.61,8.97;2,317.96,336.19,144.88,8.97" xml:id="sentence-60">Other conversion tools were tested and examined as well.</s>
+<s coords="2,465.07,336.19,93.12,8.97;2,317.96,345.16,240.24,10.95;2,317.95,358.11,240.24,8.97;2,317.95,369.07,241.62,8.97" xml:id="sentence-61">These include but are not limited to the tools of the Datalagend ecosphere <ref target="#b4" type="bibr">5</ref> which we found to be well capable of quickly producing high volumes of RDF data with minimal user input, but too rigid for modelling and linking entities.</s>
+<s coords="2,317.69,378.04,240.51,10.95;2,317.95,390.98,241.62,8.97" xml:id="sentence-62">The RML-based editors, we investigated such as RMLEditor 6 places a limit on file size and requests for an extension were not answered.</s>
+<s coords="2,317.96,399.96,240.48,10.95;2,317.96,412.90,155.25,8.97" xml:id="sentence-63">Other RML editors (such as CARML, <ref target="#b6" type="bibr">7</ref> , and Yarrrml (matey) <ref target="#b7" type="bibr">8</ref> ) lack a workable visual or GUI representation.</s>
+<s coords="2,476.24,412.90,81.95,8.97;2,317.96,423.86,240.24,8.97;2,317.96,434.82,157.70,8.97" xml:id="sentence-64">This downside makes the recommendation to use such an approach difficult for users outside computer and information sciences.</s>
+<s coords="2,477.91,434.82,80.28,8.97;2,317.96,445.78,183.29,8.97" xml:id="sentence-65">Therefore, we deemed GraphDB the most suitable for our research goals.</s>
+</p>
+</div>
+<div subtype="dataseer" xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="2,317.96,468.27,101.41,9.37" n="3.2">Iterative design</head>
+<p>
+<s coords="2,317.53,482.09,240.67,8.97;2,317.96,493.05,240.23,8.97;2,317.96,504.01,67.98,8.97" xml:id="sentence-66">We select design science as our central design methodology, as the primary goal of our project is the development of an artifact: the knowledge graph.</s>
+<s coords="2,389.21,504.01,168.99,8.97;2,317.96,514.97,129.11,8.97" xml:id="sentence-67">In Design Science research, several research methods and frameworks exist (cf.</s>
+<s coords="2,449.54,514.97,32.42,8.97" xml:id="sentence-68">[14, 20]).</s>
+<s coords="2,484.44,514.97,73.99,8.97;2,317.96,525.93,146.22,8.97" xml:id="sentence-69">The main takeaway of these theories is the design-test cycle.</s>
+<s coords="2,466.43,525.93,91.76,8.97;2,317.96,536.88,240.24,8.97;2,317.62,547.84,223.93,8.97" xml:id="sentence-70">In this iterative cycle, the researcher uses the designed artifact to solve the given problem while grounding the artifact in a socio-technical foundation.</s>
+<s coords="2,543.78,547.84,14.41,8.97;2,317.96,558.80,240.24,8.97;2,317.96,569.76,116.12,8.97" xml:id="sentence-71">The artifact is evaluated and the evaluation results are used in the second iteration of the design-test cycle.</s>
+<s coords="2,435.95,569.76,122.24,8.97;2,317.96,580.72,102.24,8.97" xml:id="sentence-72">The cycle continues until a certain predefined threshold is met.</s>
+</p>
+<p>
+<s coords="2,327.92,591.68,119.83,8.97" xml:id="sentence-73">We complete two design cycles.</s>
+<s coords="2,450.42,591.68,107.77,8.97;2,317.96,602.64,173.92,8.97" xml:id="sentence-74">This allows for a review and evaluation period while still being time-efficient.</s>
+<s coords="2,493.96,602.64,65.74,8.97;2,317.96,613.60,240.24,8.97;2,317.96,624.56,240.24,8.97;2,317.96,635.51,20.89,8.97" xml:id="sentence-75">In the first designtest cycle, we implement the approach of Jovanovik [17] with the goal of re-using some of the steps during the second design-test cycle.</s>
+<s coords="2,341.15,635.51,217.05,8.97;3,53.80,86.92,240.24,8.97;3,53.80,97.88,31.95,8.97" xml:id="sentence-76">During the first design-test cycle we also conduct an open and unstructured interview with a domain expert from the Huygens Institute.</s>
+<s coords="3,87.51,97.88,206.52,8.97;3,53.80,108.84,241.61,8.97" xml:id="sentence-77">The domain expert is responsible for some and involved in most of the curation efforts of data sets used during in this project.</s>
+<s coords="3,53.48,119.80,240.55,8.97;3,53.80,130.76,240.24,8.97;3,53.80,141.72,224.33,8.97" xml:id="sentence-78">An interview does not only help with understanding the data sets but also creates an understanding of the use case, how domain experts plan to use the artifact, and what they expect from it.</s>
+<s coords="3,280.37,141.72,13.66,8.97;3,53.80,152.68,240.87,8.97;3,53.80,163.64,159.53,8.97" xml:id="sentence-79">Not all questions can be asked and answered during a single interview; some questions may arise during the cycle.</s>
+<s coords="3,215.58,163.64,79.43,8.97;3,53.80,174.60,240.24,8.97;3,53.80,185.55,195.30,8.97" xml:id="sentence-80">Due to the pandemic, in person collaborations at the research institute's office were not possible; we therefore keep close contact via email.</s>
+<s coords="3,252.09,185.55,41.95,8.97;3,53.80,196.51,240.24,8.97;3,53.80,207.47,241.60,8.97" xml:id="sentence-81">Finally, the documentation provided by the authors of the previous historical maritime conversions ([2, 8, 10]) is examined during desk research.</s>
+</p>
+<p>
+<s coords="3,63.76,218.43,142.59,8.97" xml:id="sentence-82">The first review period has two goals.</s>
+<s coords="3,208.94,218.43,86.61,8.97;3,53.80,229.39,142.25,8.97" xml:id="sentence-83">First, errors, shortcomings, and other issues are investigated.</s>
+<s coords="3,198.28,229.39,95.75,8.97;3,53.80,240.35,226.72,8.97" xml:id="sentence-84">Second, the review period enables the start and direction of the second design iteration.</s>
+<s coords="3,282.76,240.35,11.27,8.97;3,53.80,251.31,240.24,8.97;3,53.80,262.27,190.39,8.97" xml:id="sentence-85">An unstructured discussion session with digital humanities experts and the domain expert completes the review period.</s>
+</p>
+<p>
+<s coords="3,63.76,273.23,230.27,8.97;3,53.80,284.18,240.24,8.97;3,53.80,295.14,159.16,8.97" xml:id="sentence-86">Finally, in the second review period, we test the design again and conduct a workshop with several stakeholders from the Huygens Institute and the University of Amsterdam.</s>
+<s coords="3,215.20,295.14,78.84,8.97;3,53.80,306.10,240.23,8.97;3,53.80,317.06,26.59,8.97" xml:id="sentence-87">In this workshop, the developed artifact can be user-tested, thus validating the research results.</s>
+<s coords="3,82.63,317.06,211.40,8.97;3,53.80,328.02,240.24,8.97;3,53.80,338.98,47.48,8.97" xml:id="sentence-88">Aside from the workshop, a short data story is written to illustrate the usefulness of the created knowledge graph (presented in Section 6).</s>
+</p>
+<p>
+<s coords="3,63.76,349.94,230.28,8.97;3,53.80,360.90,64.26,8.97" xml:id="sentence-89">We evaluate the sustainability aspect of our project through the design guidelines.</s>
+<s coords="3,120.29,360.90,173.75,8.97;3,53.80,371.86,118.97,8.97" corresp="#dataInstance-1" xml:id="sentence-90">Usefulness can be measured with the completion of the competency questions [1].</s>
+<s coords="3,175.01,371.86,119.03,8.97;3,53.80,382.81,240.23,8.97;3,53.80,393.77,74.65,8.97" xml:id="sentence-91">Our competency questions come from two sources: the domain expert of the Huygens Institute and a related project [10].</s>
+<s coords="3,130.61,393.77,163.97,8.97;3,53.80,404.73,240.24,8.97;3,53.80,415.69,195.57,8.97" xml:id="sentence-92">In the list of competency questions below, (D) indicates that the domain expert submitted the question; questions derived from the related project are denoted with (R):</s>
+</p>
+<p>
+<s coords="3,69.77,433.77,224.27,8.97;3,78.21,444.73,110.96,8.97" xml:id="sentence-93">• (D) Which VOC Chamber was accountable for the largest number of slaves transported?</s>
+<s coords="3,69.77,455.69,224.27,8.97;3,78.21,466.65,215.83,8.97;3,78.21,477.61,203.37,8.97" xml:id="sentence-94">• (D) How were the shipping routes in Asia divided between the various VOC chambers (for example, did ships from a specific chamber predominantly sail on certain routes)?</s>
+<s coords="3,69.77,488.57,224.27,8.97;3,77.98,499.52,216.06,8.97;3,78.21,510.48,38.68,8.97" xml:id="sentence-95">• (D) What was the average value of cargo on VOC return voyages per crew member/ship's ton, and how did this evolve over time?</s>
+<s coords="3,69.77,521.44,225.79,8.97;3,78.21,532.40,215.83,8.97;3,78.21,543.36,216.06,8.97;3,78.21,554.32,172.25,8.97" xml:id="sentence-96">• (D) To what extent was the value per ships' ton on return voyages correlated with the skipper's track record (how much experience, i.e., how many previous voyages / how quickly did a ship get to Asia on an outbound voyage)?</s>
+<s coords="3,69.77,565.28,189.88,8.97" xml:id="sentence-97">• (R) How did the price of goods change over time?</s>
+<s coords="3,69.77,576.24,224.27,8.97;3,78.21,587.20,72.70,8.97;3,69.77,598.15,225.79,8.97;3,78.21,609.11,60.89,8.97" xml:id="sentence-98">• (R) Perform a search for specific information in large data sets, such as names; • (R) Can external factors, such as war, be linked to the intensity of shipping?</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="3,53.80,635.56,110.13,9.37" n="4">FIRST ITERATION</head>
+<p>
+<s coords="3,53.48,649.39,240.55,8.97;3,53.80,660.35,181.26,8.97" xml:id="sentence-99">As discussed in the methodology section, we derive the structure of the iterations from the work of Jovanonik [17].</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="3,53.80,686.80,69.02,9.37" n="4.1">Data sets</head>
+<p>
+<s coords="3,53.37,700.62,241.62,8.97" xml:id="sentence-100">We include three VOC related data sets in the first design iteration:</s>
+</p>
+<p>
+<s coords="3,333.92,86.92,225.79,8.97;3,342.36,97.88,216.06,8.97;3,342.36,108.84,147.40,8.97" xml:id="sentence-101">• Dutch-Asiatic Shipping (DAS) This data set contains information about all voyages from the Netherlands to Asia and back made by the VOC and its predecessors.</s>
+<s coords="3,492.39,108.84,65.80,8.97;3,342.36,119.80,215.99,8.97;3,342.36,130.76,215.83,8.97;3,342.36,139.73,109.84,10.95" xml:id="sentence-102">Some core details are available for every voyage, such as the VOC Chamber that outfitted and contracted the ship, and the places and dates of departure and arrival. <ref target="#b8" type="bibr">9</ref>
+</s>
+<s coords="3,454.49,141.72,103.70,8.97;3,342.36,152.68,217.21,8.97" xml:id="sentence-103">During these voyages, events occurred, such as a storm or a capture of an enemy vessel.</s>
+<s coords="3,342.10,163.64,197.97,8.97" xml:id="sentence-104">These events are stored in the voyParticulars column.</s>
+<s coords="3,542.30,163.64,17.41,8.97;3,342.36,174.60,216.81,8.97;3,342.36,185.55,171.12,8.97" xml:id="sentence-105">Voyages had a master and were made by ships that have a name, type and tonnage, and were built at shipyards.</s>
+<s coords="3,515.73,185.55,42.46,8.97;3,342.36,196.51,215.83,8.97;3,342.36,207.47,33.33,8.97" xml:id="sentence-106">Ships could make multiple journeys and sometimes have their name changed.</s>
+<s coords="3,378.68,207.47,179.51,8.97;3,342.36,218.43,211.63,8.97" xml:id="sentence-107">DAS contains the information of 4,700 voyages from the Netherlands to Asia and of 3,400 return voyages.</s>
+<s coords="3,333.92,229.39,224.27,8.97;3,342.36,240.35,215.83,8.97;3,342.36,251.31,116.91,8.97" xml:id="sentence-108">• Bookkeeper-General Batavia (BGB) In Batavia (now Jakarta in Indonesia), the bookkeeper and his clerks kept track of all imports and exports over sea.</s>
+<s coords="3,461.53,251.31,96.66,8.97;3,342.36,262.27,175.16,8.97" xml:id="sentence-109">For a sizable portion of the eighteenth century, these records have survived.</s>
+<s coords="3,519.78,262.27,38.42,8.97;3,342.36,273.23,215.83,8.97;3,342.36,282.20,32.01,10.95" xml:id="sentence-110">They were entered into a database in the past decade and published online. <ref target="#b9" type="bibr">10</ref>
+</s>
+<s coords="3,377.12,284.18,181.07,8.97;3,342.36,295.14,215.83,8.97;3,342.36,306.10,17.06,8.97" xml:id="sentence-111">Similarly to the voyages in DAS, voyages in BGB leave and arrive on a specific date to and from a specific port.</s>
+<s coords="3,361.66,306.10,198.04,8.97;3,342.36,317.06,47.22,8.97" xml:id="sentence-112">There are also overlapping voyages between the different data sets.</s>
+<s coords="3,342.36,415.69,215.83,8.97;3,342.36,426.65,215.83,8.97;3,342.36,437.61,174.14,8.97" xml:id="sentence-113">It contains toponym attestations from DAS and BGB that are linked to a standardized place name (toponym followed by a space and the ISO 3166-1 alpha 2 country code).</s>
+<s coords="3,518.75,437.61,39.45,8.97;3,342.36,448.57,215.83,8.97;3,342.36,457.54,40.99,10.95" xml:id="sentence-114">GeoNames and Wikidata URIs, as well as geographical coordinates are available. <ref target="#b10" type="bibr">11</ref>
+</s>
+<s coords="3,386.09,459.53,157.26,8.97" xml:id="sentence-115">The places dataset consists 4,252 instances.</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="3,317.96,482.10,165.13,9.37" n="4.2">Data and ontology modeling</head>
+<p>
+<s coords="3,317.96,495.92,240.24,8.97;3,317.96,506.88,240.24,8.97;3,317.96,517.84,221.42,8.97" xml:id="sentence-116">In the data and ontology modeling phase, we aim to map data concepts to our base ontology (CIDOC CRM) and add new attributes to that model if one of these concepts does not fit the model.</s>
+<s coords="3,327.92,528.80,231.79,8.97;3,317.96,539.76,75.71,8.97" xml:id="sentence-117">We initially identify four main components: voyages, ships, persons, and companies.</s>
+<s coords="3,395.84,539.76,163.34,8.97;3,317.96,550.72,241.22,8.97;3,317.96,561.67,156.46,8.97" xml:id="sentence-118">Their relations include, but are not limited to, a voyage taking place on a ship, a sailor participating on a voyage, and the VOC chamber outfitting the ship.</s>
+<s coords="3,477.03,561.67,81.17,8.97;3,317.96,572.63,212.69,8.97" xml:id="sentence-119">With these high-level concepts defined, we can specify the lower-level concepts.</s>
+</p>
+<p>
+<s coords="3,327.92,583.59,231.78,8.97;3,317.96,594.55,20.39,8.97" xml:id="sentence-120">Voyages form the starting point of the lower-level, detailed concepts.</s>
+<s coords="3,340.48,594.55,217.72,8.97;3,317.96,605.51,74.12,8.97" xml:id="sentence-121">A voyage is the journey that a ship undertakes, moving from one place to another.</s>
+<s coords="3,394.04,605.51,165.66,8.97;3,317.96,616.47,240.24,8.97;3,317.96,627.43,53.88,8.97" xml:id="sentence-122">In this journey, sailors, soldiers, and other personnel are employed to ensure that the ship's cargo safely reaches its destination.</s>
+</p>
+<p>
+<s coords="3,327.92,638.39,230.27,8.97;3,317.96,649.35,30.71,8.97" xml:id="sentence-123">We aim to re-use CIDOC CRM classes and properties where possible.</s>
+<s coords="3,350.81,649.35,207.38,8.97;3,317.96,660.30,71.45,8.97" xml:id="sentence-124">If no good fit is available, we re-use classes and properties of Beretta et al. [2].</s>
+<s coords="3,391.65,660.30,166.55,8.97;4,63.76,392.77,230.51,8.97;4,53.80,403.73,240.23,8.97;4,53.59,414.69,6.14,8.97" xml:id="sentence-125">Finally, we create new classes and properties For reasons of readability, we do not display the entire ontology model, but instead show a branch starting from a voyage in Figure <ref target="#fig_0" type="figure">1</ref>.</s>
+<s coords="4,61.98,412.71,224.47,10.95" xml:id="sentence-126">The complete mapping figures can be found on the GitHub. <ref target="#b11" type="bibr">12</ref>
+</s>
+<s coords="4,63.76,425.65,230.28,8.97;4,53.80,437.42,30.80,8.02" xml:id="sentence-127">e initially defined the voyage instance as a subclass of CRM:E7 Activity.</s>
+<s coords="4,86.84,436.61,207.21,8.97;4,53.80,447.57,240.24,8.97;4,53.57,458.53,146.65,8.97" xml:id="sentence-128">We later changed this definition to a subclass of CRM:E9 Move to accommodate the linking of goods (physical objects) to the voyage via the property CRM:P25 moved.</s>
+<s coords="4,202.47,458.53,93.09,8.97;4,53.80,469.49,124.02,8.97" xml:id="sentence-129">We define ships as a subclass of CRM:E22 man-made object.</s>
+<s coords="4,179.96,469.49,114.08,8.97;4,53.80,480.44,241.63,8.97" xml:id="sentence-130">The property CRM:P8 took place on or within is used as property between the voyages and the ships.</s>
+<s coords="4,53.53,491.40,240.52,8.97;4,53.80,502.36,240.24,8.97;4,53.80,513.32,240.25,8.97;4,53.80,524.28,158.80,8.97" xml:id="sentence-131">(Incidentally, the property description of CRM:P8 took place on or within, even uses this relation as an example: 'It describes a period that can be located with respect to the space defined by an CRM: E19 Physical Object such as a ship or a building.</s>
+<s coords="4,211.51,524.28,82.54,8.97;4,53.80,535.24,240.24,8.97;4,53.80,546.20,216.19,8.97" xml:id="sentence-132">') We define the name of the ship through the property CRM:P1 is identified by, which links the ship instance to a CRM:E41 Appellation instance.</s>
+<s coords="4,272.49,546.20,21.72,8.97;4,53.80,557.16,241.22,8.97;4,53.80,568.12,90.70,8.97" xml:id="sentence-133">Other definitions and classifications, such as ship types and productions, can be found in Figure <ref target="#fig_0" type="figure">1</ref>.</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="4,53.80,589.68,166.89,9.37" n="4.3">Linked Data Transformation</head>
+<p>
+<s coords="4,53.80,603.51,240.24,8.97;4,53.80,614.47,36.14,8.97" xml:id="sentence-134">In the transformation phase, we transform the acquired knowledge into RDF.</s>
+<s coords="4,93.14,614.47,200.89,8.97;4,53.80,625.42,108.76,8.97" xml:id="sentence-135">In short, a table structure is mapped to the different positions within a RDF triple.</s>
+<s coords="4,164.80,625.42,129.23,8.97;4,53.80,636.38,61.85,8.97" xml:id="sentence-136">We summarize our most important design decisions:</s>
+</p>
+<p>
+<s coords="4,67.75,649.76,206.72,8.97" xml:id="sentence-137">Time Time plays a central role in the maritime model.</s>
+<s coords="4,276.96,649.76,18.59,8.97;4,78.21,660.72,86.71,8.97" xml:id="sentence-138">It relates to many concepts.</s>
+<s coords="4,167.16,660.72,126.88,8.97;4,78.21,671.68,20.62,8.97" xml:id="sentence-139">Such as the arrival or departure of ships.</s>
+<s coords="4,101.07,671.68,192.96,8.97;4,78.21,682.64,215.83,8.97;4,53.67,700.60,152.29,8.49" xml:id="sentence-140">In the initial phases of the conversion, the dates were sanitized and formatted according to the ISO 8601-1:2019 <ref target="#b11" type="bibr">12</ref> https://github.com/stijnschout3n/thewindinoursails</s>
+<s coords="4,342.36,348.94,183.34,8.97" xml:id="sentence-141">standard, which does not allow for uncertainties.</s>
+<s coords="4,528.13,348.94,31.58,8.97;4,342.36,359.90,215.83,8.97;4,342.36,370.86,215.83,8.97;4,342.36,381.81,122.19,8.97" xml:id="sentence-142">The reasoning behind this decision is as follows: more complex date formats are difficult to calculate with and can therefore lead to lower usability of the artifact.</s>
+<s coords="4,467.22,381.81,90.98,8.97;4,342.36,392.77,215.83,8.97;4,342.36,403.73,217.35,8.97;4,342.36,414.69,191.71,8.97" xml:id="sentence-143">In consultation with the domain expert, we decided to add the original dates (which sometimes state uncertainties) as an extra attribute for researchers to consult while retaining data usability.</s>
+<s coords="4,537.06,414.69,21.13,8.97;4,342.03,425.65,216.16,8.97;4,342.36,436.61,94.04,8.97" xml:id="sentence-144">Dates were formatted, according to CRM standards, as URIs and not as XSD:Date literals.</s>
+<s coords="4,439.67,436.61,118.52,8.97;4,342.36,447.57,187.86,8.97" xml:id="sentence-145">This decision helps link events together that happened during the same time-span.</s>
+<s coords="4,331.90,458.53,227.67,8.97" xml:id="sentence-146">URIs We create URIs for unique (and unambiguous) entities.</s>
+</p>
+<p>
+<s coords="4,342.36,469.49,219.04,8.97;4,342.36,480.44,169.60,8.97" xml:id="sentence-147">Identifying entities across different data sets is rather tricky [5]  and it is not captured in this research project.</s>
+<s coords="4,514.27,480.44,44.91,8.97;4,342.36,491.40,217.34,8.97;4,342.36,502.36,107.03,8.97" xml:id="sentence-148">Fortunately, other researchers have performed data resolution and linking on these data sets [13, 18].</s>
+<s coords="4,451.38,502.36,106.82,8.97;4,342.36,513.32,148.62,8.97" xml:id="sentence-149">For example, the BGB data set is linked at some entries to DAS voyages.</s>
+<s coords="4,493.22,513.32,64.97,8.97;4,342.36,524.28,215.83,8.97;4,342.36,535.24,15.76,8.97" xml:id="sentence-150">In these cases, the DAS voyage entity is reused, effectively linking the two data sets.</s>
+<s coords="4,360.36,535.24,197.83,8.97;4,342.36,546.20,197.06,8.97" xml:id="sentence-151">For goods shipped by the VOC, we create unique URIs for every good that was carried on a specific voyage.</s>
+<s coords="4,541.77,546.20,16.43,8.97;4,342.36,557.16,215.83,8.97;4,342.36,568.12,110.11,8.97" xml:id="sentence-152">This is to allow for linking voyage-specific information (such as quantity or price) to the good.</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="4,317.96,590.05,105.25,9.37" n="4.4">Data interaction</head>
+<p>
+<s coords="4,317.64,603.88,240.55,8.97;4,317.96,614.84,118.93,8.97" xml:id="sentence-153">After converting and connecting the different data sets, we make our knowledge graph accessible.</s>
+<s coords="4,439.13,614.84,119.06,8.97;4,317.96,625.80,240.24,8.97;4,317.96,636.76,159.24,8.97" xml:id="sentence-154">We do this such that researchers are able to query the created knowledge graph and wrangle the retrieved data to achieve their research goal.</s>
+<s coords="4,479.42,636.76,78.77,8.97;4,317.96,647.71,190.19,8.97" xml:id="sentence-155">Our knowledge graph can be accessed via https://dutchshipsandsailors.nl/.</s>
+</p>
+<p>
+<s coords="4,327.92,658.67,230.27,8.97;4,317.96,667.65,240.24,10.95;4,317.96,680.59,119.57,8.97" xml:id="sentence-156">During the project, we also experimented with the Metaphacts platform <ref target="#b12" type="bibr">13</ref> which is well integrated with GraphDB and comes in a pre-configured Docker container.</s>
+<s coords="4,439.78,680.59,118.40,8.97;5,53.80,86.92,153.43,8.97" xml:id="sentence-157">Second, the Metaphacts platform hosts very usable graph exploration tools.</s>
+<s coords="5,209.47,86.92,84.57,8.97;5,53.80,97.88,161.21,8.97" xml:id="sentence-158">These tools can help in answering the defined competency questions.</s>
+<s coords="5,216.57,97.88,78.45,8.97;5,53.47,108.84,240.57,8.97;5,53.80,119.80,240.23,8.97;5,53.80,130.76,94.54,8.97" xml:id="sentence-159">Due to licensing issue, we cannot expose our data through Metaphacts, but invite readers to try out this platform, as well as exploring the data through the triplestore of their choice.</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="5,53.80,152.18,160.31,9.37" n="4.5">Review of the initial design</head>
+<p>
+<s coords="5,53.80,166.01,241.22,8.97;5,53.80,176.96,201.48,8.97" xml:id="sentence-160">Modeling data sets into an existing ontology is a delicate process, even with high-level ontologies, such as CIDOC CRM.</s>
+<s coords="5,257.51,176.96,36.52,8.97;5,53.80,187.92,240.24,8.97;5,53.80,198.88,158.66,8.97" xml:id="sentence-161">There is a continuous push and pull between modeling from a data perspective and modeling from an ontology perspective.</s>
+<s coords="5,214.62,198.88,79.41,8.97;5,53.80,209.84,126.03,8.97" xml:id="sentence-162">In a perfect world, the ontology and the data are a match.</s>
+<s coords="5,182.08,209.84,111.95,8.97;5,53.80,220.80,153.43,8.97" xml:id="sentence-163">In this case, there exists a class and property for every envisioned concept.</s>
+<s coords="5,209.17,220.80,84.86,8.97;5,53.80,231.76,241.62,8.97" xml:id="sentence-164">Nevertheless, this is not the case when using a general ontology, as it defeats its purpose.</s>
+<s coords="5,53.53,242.72,240.51,8.97;5,53.80,253.68,57.61,8.97" xml:id="sentence-165">Therefore, the envisioned concepts should be fitted within the scope of the ontology.</s>
+</p>
+<p>
+<s coords="5,63.76,264.64,230.27,8.97;5,53.80,275.59,27.04,8.97" xml:id="sentence-166">Differences in semantics between classes is not unique to this project.</s>
+<s coords="5,82.88,275.59,211.15,8.97;5,53.80,286.55,116.42,8.97" xml:id="sentence-167">The domain experts foresaw this and started developing an extension for the CRM ontology.</s>
+<s coords="5,172.29,286.55,122.73,8.97;5,53.80,297.51,240.24,8.97;5,53.80,306.49,105.38,10.95" xml:id="sentence-168">This extension, focusing on social, economic, and legal life, allows for modeling concepts outside of the museum artifact realm. <ref target="#b13" type="bibr">14</ref>
+</s>
+<s coords="5,63.76,319.43,230.27,8.97;5,53.80,330.39,106.90,8.97" xml:id="sentence-169">e now take a step back to a more meta-level by checking the research questions' progress.</s>
+<s coords="5,162.95,330.39,131.08,8.97;5,53.80,341.35,141.39,8.97" xml:id="sentence-170">Any forthcoming discrepancies can be fixed in the second design iteration.</s>
+</p>
+<p>
+<s coords="5,63.76,352.31,230.28,8.97;5,53.80,363.27,52.52,8.97" xml:id="sentence-171">Usability: The solution is approaching usable compared to the research goals.</s>
+<s coords="5,108.13,363.27,185.90,8.97;5,53.80,374.22,133.99,8.97" xml:id="sentence-172">In Subsection 4.4, some of the competency questions could be answered with the interface.</s>
+<s coords="5,189.89,374.22,104.38,8.97;5,53.80,385.18,151.20,8.97" xml:id="sentence-173">However, not all competency questions can be answered at this moment.</s>
+<s coords="5,206.68,385.18,87.36,8.97;5,53.80,396.14,240.24,8.97;5,53.80,407.10,12.56,8.97" xml:id="sentence-174">The first design iteration did not include the very extensive VOC Opvarenden (VOCOP) data set.</s>
+<s coords="5,68.62,407.10,225.41,8.97;5,53.47,418.06,102.32,8.97" xml:id="sentence-175">This data set contains rich records of the sailors and soldiers who crewed the VOC ships.</s>
+<s coords="5,158.04,418.06,136.00,8.97;5,53.80,429.02,235.72,8.97" xml:id="sentence-176">These records will be included in the second design iteration, thus fulfilling the usability requirement.</s>
+</p>
+<p>
+<s coords="5,63.76,439.98,230.51,8.97;5,53.80,450.94,47.67,8.97" xml:id="sentence-177">Sustainability: This is not as strictly defined as the usability requirement.</s>
+<s coords="5,103.72,450.94,190.32,8.97;5,53.80,461.90,241.75,8.97;5,53.80,472.85,102.27,8.97" xml:id="sentence-178">We can only review the approach and the decisions made during the first design iteration and determine where the sustainability can be improved.</s>
+<s coords="5,158.30,472.85,135.75,8.97;5,53.80,483.81,132.25,8.97" xml:id="sentence-179">The approach, thus far, is transparent due to the extensive documentation.</s>
+<s coords="5,188.28,483.81,105.75,8.97;5,53.80,494.77,240.24,8.97;5,53.80,505.73,47.39,8.97" xml:id="sentence-180">The triple store allows for an accessible environment where the knowledge graph can be accessed interactively.</s>
+<s coords="5,103.43,505.73,190.60,8.97;5,53.80,516.69,193.93,8.97" xml:id="sentence-181">By reviewing different approaches and methods, the current approach seems reasonably reusable as well.</s>
+<s coords="5,249.98,516.69,44.07,8.97;5,53.80,527.65,240.24,8.97;5,53.80,538.61,40.17,8.97" xml:id="sentence-182">As we use a CRM extension in the second iteration, we are actively promoting reusability.</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="5,53.80,560.03,123.64,9.37" n="5">SECOND ITERATION</head>
+<p>
+<s coords="5,53.80,573.85,240.24,8.97;5,53.80,584.81,240.24,8.97;5,53.80,595.77,68.54,8.97" xml:id="sentence-183">In the second design iteration, we process the results of the first review period, and try to resolve any shortcomings regarding the research questions.</s>
+<s coords="5,124.57,595.77,169.47,8.97;5,53.80,606.73,240.24,8.97;5,53.80,617.69,240.23,8.97;5,53.80,628.65,29.75,8.97" xml:id="sentence-184">This iteration will be noticeably compacter due to our improved understanding of the source data, making mere improvements rather than additions, and having fewer data sets to convert.</s>
+</p>
+<p>
+<s coords="5,63.76,639.61,230.28,8.97;5,53.57,650.57,241.84,8.97" xml:id="sentence-185">The design thus far consists of voyages (DAS), cargo moved on voyages (BGB), and the places where the voyages called (Places).</s>
+<s coords="5,53.80,661.52,240.23,8.97;5,53.80,672.48,99.37,8.97" xml:id="sentence-186">However, several competency questions are related to the people involved in these activities.</s>
+<s coords="5,155.40,672.48,138.63,8.97;5,53.80,683.44,215.69,8.97" xml:id="sentence-187">In the second design iteration, we add persons to the design to solve these competency questions.</s>
+</p>
+<p>
+<s coords="5,327.92,86.92,230.27,8.97;5,317.69,97.88,92.09,8.97" xml:id="sentence-188">The VOC kept extensive records of its contracted crew members ('Opvarenden' in Dutch).</s>
+<s coords="5,412.00,97.88,146.19,8.97;5,317.96,108.84,175.12,8.97" xml:id="sentence-189">For the late seventeenth and eighteenth centuries, many pay ledgers have been preserved.</s>
+<s coords="5,494.75,108.84,63.44,8.97;5,317.96,119.80,241.62,8.97" xml:id="sentence-190">Pay ledger entries include personal data, ranks, wages, and references to voyages.</s>
+<s coords="5,317.69,130.76,223.34,8.97" xml:id="sentence-191">The voyages overlap with the voyages of the DAS data set.</s>
+<s coords="5,543.72,130.76,14.47,8.97;5,317.96,141.72,240.24,8.97;5,317.96,152.68,77.33,8.97" xml:id="sentence-192">The information of 774,200 crew members was preserved in the VOC Opvarenden data set.</s>
+</p>
+<p>
+<s coords="5,327.92,163.64,230.27,8.97;5,317.96,174.60,39.39,8.97" xml:id="sentence-193">The core of the model does not change in the second iteration of the design.</s>
+<s coords="5,359.59,174.60,198.60,8.97;5,317.96,185.55,51.19,8.97" xml:id="sentence-194">The changes in the second iteration are more apparent in the details.</s>
+<s coords="5,371.95,185.55,186.24,8.97;5,317.96,196.51,91.91,8.97" xml:id="sentence-195">One of the more critical changes is related to the structure of the voyages.</s>
+<s coords="5,412.11,196.51,146.09,8.97;5,317.72,207.47,240.47,8.97;5,317.96,218.43,193.60,8.97" xml:id="sentence-196">In summary of the previous iteration: a voyage is linked to a starting point via a departing activity and ends with the arrival of the voyage at its destination.</s>
+<s coords="5,513.80,218.43,44.39,8.97;5,317.96,229.39,240.23,8.97;5,317.96,240.35,180.83,8.97" xml:id="sentence-197">Persons and goods are directly linked to the voyage; we assume that they were involved during the whole duration of the voyage.</s>
+<s coords="5,501.04,240.35,57.15,8.97;5,317.66,251.31,135.84,8.97" xml:id="sentence-198">However, in the VOCOP data set, this is not the case.</s>
+<s coords="5,455.81,251.31,102.38,8.97;5,317.96,262.27,208.23,8.97" xml:id="sentence-199">Persons could change ships during a stopover, effectively participating in two voyages.</s>
+<s coords="5,528.04,262.27,30.15,8.97;5,317.96,273.23,187.19,8.97" xml:id="sentence-200">The first iteration could not adequately convey this concept.</s>
+</p>
+<p>
+<s coords="5,327.92,284.18,214.06,8.97" xml:id="sentence-201">To correctly convey this concept, we introduce a new class.</s>
+<s coords="5,544.22,284.18,13.97,8.97;5,317.96,295.14,161.60,8.97" xml:id="sentence-202">The leg class is, similar to the voyage, a phase.</s>
+<s coords="5,482.13,295.14,77.58,8.97;5,317.95,306.10,187.04,8.97" xml:id="sentence-203">It indicates a continuous part of the voyage from and to a port of call.</s>
+<s coords="5,507.40,306.10,50.79,8.97;5,317.96,317.06,87.36,8.97" xml:id="sentence-204">A voyage can consist of multiple legs.</s>
+<s coords="5,407.55,317.06,150.64,8.97;5,317.96,328.02,195.83,8.97" xml:id="sentence-205">The time between the end of the first leg and the beginning of the second leg is the stopover.</s>
+<s coords="5,516.50,328.02,41.69,8.97;5,317.96,338.98,240.24,8.97;5,317.69,349.94,99.04,8.97" xml:id="sentence-206">Finally, the sailors are linked to the departing and arriving properties to indicate (dis)embarkment activities.</s>
+</p>
+<p>
+<s coords="5,327.92,360.90,230.28,8.97;5,317.96,371.86,217.16,8.97" xml:id="sentence-207">We choose the CIDOC CRM extension for economic, social, and legal life (SDHSS prefix) for mapping the VOCOP data set.</s>
+<s coords="5,537.40,371.86,22.30,8.97;5,317.96,382.81,216.39,8.97" xml:id="sentence-208">To relate persons to a voyage, the participation concept is used.</s>
+<s coords="5,536.65,382.81,21.72,8.97;5,317.96,393.77,171.47,8.97" xml:id="sentence-209">Other mappings include ranks and their descriptions.</s>
+</p>
+<p>
+<s coords="5,327.92,404.73,230.27,8.97;5,317.96,415.69,241.75,8.97;5,317.96,426.65,24.33,8.97" xml:id="sentence-210">The changes made during the second design iteration aim to improve the reusability of the artifact by utilizing an extended ontology.</s>
+<s coords="5,344.54,426.65,213.67,8.97;5,317.96,437.61,34.03,8.97" xml:id="sentence-211">Creating mapping figures and tables improves transparency concerns.</s>
+<s coords="5,353.88,437.61,204.32,8.97;5,317.96,448.57,196.39,8.97" xml:id="sentence-212">Converting the VOCOP data set ensures that the usability aspect as defined by the competency questions is met.</s>
+<s coords="5,516.58,448.57,41.62,8.97;5,317.96,459.53,240.24,8.97;5,317.96,470.49,35.46,8.97" xml:id="sentence-213">To improve the maintainability aspect of the artifact, the OntoME platform is proposed.</s>
+<s coords="5,355.66,470.49,186.22,8.97" xml:id="sentence-214">The power of OntoME is in the reuse of ontologies.</s>
+<s coords="5,544.12,470.49,14.07,8.97;5,317.96,481.44,240.24,8.97;5,317.96,492.40,240.24,8.97;5,317.96,503.36,241.75,8.97;5,317.96,514.32,21.64,8.97" xml:id="sentence-215">The application has similarities with software development platforms such as Github in that it allows users to collaborate and discuss aspects concerning the creation and utilization of classes and properties.</s>
+<s coords="5,341.64,514.32,216.56,8.97;5,317.96,525.28,199.38,8.97" xml:id="sentence-216">Furthermore, other researchers can easily reuse the captured knowledge within the ontology for their own projects.</s>
+</p>
+<p>
+<s coords="5,327.92,536.24,230.27,8.97;5,317.96,547.20,68.71,8.97" xml:id="sentence-217">Changes in the modeling have a cascading effect on the front-end part of the artifact.</s>
+<s coords="5,388.91,547.20,169.28,8.97;5,317.96,558.16,75.56,8.97" xml:id="sentence-218">In the second design iteration, these issues are examined and fixed.</s>
+<s coords="5,396.16,558.16,162.04,8.97;5,317.96,569.12,124.35,8.97" xml:id="sentence-219">Furthermore, the VOCOP data set was also integrated in the knowledge graph.</s>
+<s coords="5,444.03,569.12,114.16,8.97;5,317.96,580.08,240.24,8.97;5,317.96,591.03,109.86,8.97" xml:id="sentence-220">An example of how the different sources can be explored in a single screen through the Metaphacts platform is shown in Figure <ref target="#fig_1" type="figure">2</ref>.</s>
+</p>
+<p>
+<s coords="5,327.92,601.99,209.01,8.97" xml:id="sentence-221">Community interaction is not necessarily a research goal.</s>
+<s coords="5,539.17,601.99,20.54,8.97;5,317.96,612.95,119.54,8.97" xml:id="sentence-222">However, it can have clear benefits.</s>
+<s coords="5,440.83,612.95,117.36,8.97;5,317.96,623.91,240.47,8.97;5,317.96,634.87,46.75,8.97" xml:id="sentence-223">As [19] points out, sustainable growth of the knowledge graph can be realized with community involvement.</s>
+<s coords="5,366.67,634.87,191.52,8.97;5,317.96,643.84,94.72,10.95" xml:id="sentence-224">A proposal that captures this issue is the utilization of the Geovistory platform. <ref target="#b14" type="bibr">15</ref>
+</s>
+<s coords="5,415.12,645.83,144.59,8.97;5,317.96,656.79,240.24,8.97;5,317.96,667.75,241.62,8.97" xml:id="sentence-225">This platform can interact with a knowledge graph and hosts a text editor that can recognize entities and propose linkage to existing entities within the knowledge graph.</s>
+<s coords="5,317.64,678.71,241.54,8.97" xml:id="sentence-226">Academics and citizen-scientists could for example, with approval,</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="6,53.80,445.70,85.82,9.37" n="6">EVALUATION</head>
+<p>
+<s coords="6,53.37,459.53,240.67,8.97;6,53.80,470.49,205.19,8.97" xml:id="sentence-227">With the completion of the second design iteration, most of the issues discovered during the review period are resolved.</s>
+<s coords="6,261.24,470.49,34.31,8.97;6,53.80,481.44,240.24,8.97;6,53.80,492.40,241.75,8.97;6,53.57,503.36,241.84,8.97" xml:id="sentence-228">These include, but are not limited to, better utilization of the CIDOC CRM model and its extensions, ontology management, community involvement, and the conversion of data on crew member (VOCOP).</s>
+<s coords="6,53.80,514.32,240.24,8.97;6,53.80,525.28,126.90,8.97" xml:id="sentence-229">In the second review, we explore these improvements and related them to the primary research goal.</s>
+<s coords="6,182.94,525.28,112.60,8.97;6,53.80,536.24,240.23,8.97;6,53.80,547.20,92.80,8.97" xml:id="sentence-230">The review consists of a workshop with five domain experts from the Huygens Institute and the University of Amsterdam.</s>
+<s coords="6,148.79,547.20,146.76,8.97;6,53.80,558.16,241.22,8.97;6,53.80,569.12,189.13,8.97" xml:id="sentence-231">The expertise of the domain experts covered maritime history, digital data management and data science, all with an affinity for (digital) humanities research.</s>
+</p>
+<p>
+<s coords="6,63.76,580.08,231.79,8.97;6,53.80,591.03,215.25,8.97" xml:id="sentence-232">In the workshop, multiple discussions where brought up to challenge design decisions made during the research project.</s>
+<s coords="6,271.91,591.03,22.12,8.97;6,53.80,601.99,240.24,8.97;6,53.80,612.95,241.75,8.97;6,53.80,623.91,45.95,8.97" xml:id="sentence-233">These topics include, but are not limited to, the utilization of CIDOC CRM, the conceptual mapping of a voyage, and the proposed infrastructure.</s>
+<s coords="6,101.99,623.91,192.05,8.97;6,53.80,634.87,240.24,8.97;6,53.80,645.83,166.79,8.97" xml:id="sentence-234">The feedback was overall positive but also provided constructive criticism and included recommendations to put more focus on data provenance in future iterations.</s>
+</p>
+<p>
+<s coords="6,63.76,656.79,230.27,8.97;6,53.80,667.75,241.62,8.97" xml:id="sentence-235">Initially, one of the goals of this project was to create a usable knowledge graph in the field of Dutch historical maritime data.</s>
+<s coords="6,53.80,678.71,240.46,8.97;6,53.80,689.66,240.46,8.97;6,53.80,700.62,48.18,8.97" xml:id="sentence-236">Discussion on what makes a knowledge graph useful stems mainly from the perspective of maritime historians, as they are the primary stakeholders.</s>
+<s coords="6,104.22,700.62,189.82,8.97;6,317.96,394.42,132.89,8.97" xml:id="sentence-237">They provided the competency questions which are used to test and improve the artifact.</s>
+<s coords="6,453.09,394.42,105.33,8.97;6,317.96,405.37,155.32,8.97" xml:id="sentence-238">The answer to the solvability of these questions can be found in Table <ref target="#tab_1" type="table">1</ref>.</s>
+</p>
+<p>
+<s coords="6,327.92,416.33,230.27,8.97;6,317.96,427.29,86.84,8.97" xml:id="sentence-239">However, the developed artifact is not only intended to be used by maritime historians.</s>
+<s coords="6,407.09,427.29,151.10,8.97;6,317.96,438.25,240.24,8.97;6,317.96,449.21,90.15,8.97" xml:id="sentence-240">Other interested parties can be drawn in by their research of an event or a long-lost forefather who had a remarkable VOC career.</s>
+<s coords="6,410.88,449.21,147.31,8.97;6,317.96,460.17,240.24,8.97;6,317.96,471.13,241.62,8.97" xml:id="sentence-241">Determining if the knowledge graph is useful for these users is challenging as there is no clear picture of who these people are and what their research questions entail.</s>
+<s coords="6,317.96,482.09,240.24,8.97;6,317.96,491.06,112.06,10.95" xml:id="sentence-242">Nevertheless, we found one subject and their research question is explored in a short data story. <ref target="#b15" type="bibr">16</ref>
+</s>
+<s coords="6,432.35,493.05,125.84,8.97;6,317.96,504.01,136.51,8.97" xml:id="sentence-243">In short, the data story briefly dives into the life of a sailor, Hendrik Prins.</s>
+<s coords="6,456.70,504.01,101.49,8.97;6,317.96,514.96,240.23,8.97;6,317.96,525.92,99.07,8.97" xml:id="sentence-244">Quantitative and qualitative data analytics are performed in order to portray the personal life and career of Hendrik Prins.</s>
+<s coords="6,418.60,525.92,139.59,8.97;6,317.96,536.88,239.39,8.97" xml:id="sentence-245">The developed knowledge graph makes the process of combining data sources straightforward and quick.</s>
+</p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="6,317.96,564.02,181.61,9.37" n="7">DISCUSSION AND CONCLUSION</head>
+<p>
+<s coords="6,317.96,577.84,241.75,8.97;6,317.96,588.80,142.33,8.97" xml:id="sentence-246">In this paper, we presented a reusable and maintainable knowledge graph for Dutch maritime history.</s>
+<s coords="6,462.53,588.80,95.66,8.97;6,317.96,599.76,240.24,8.97;6,317.96,610.72,241.75,8.97;6,317.96,621.68,223.15,8.97" xml:id="sentence-247">The knowledge graph was created using an iterative design and development process that involved the conversion and linking of four different data sets concerning the Dutch East India Company's business dealings.</s>
+<s coords="6,543.73,621.68,14.47,8.97;6,317.96,632.64,240.45,8.97;6,317.96,643.60,25.60,8.97" xml:id="sentence-248">The resulting knowledge graph consists of more than 21 Million RDF triples.</s>
+<s coords="6,346.49,641.61,211.38,10.95;7,53.80,340.33,193.82,10.95" xml:id="sentence-249">The dataset is available through an online triple store 17 and can be queried through a SPARQL endpoint <ref target="#b17" type="bibr">18</ref> .</s>
+<s coords="7,250.66,342.32,44.89,8.97;7,53.80,351.29,164.29,10.95" xml:id="sentence-250">The data itself is made available under open licences <ref target="#b18" type="bibr">19</ref> .</s>
+<s coords="7,220.33,353.27,73.71,8.97;7,53.80,364.23,241.75,8.97;7,53.57,375.19,240.46,8.97;7,53.80,386.15,241.61,8.97" xml:id="sentence-251">The data model and knowledge graph were evaluated using competency questions provided specifically for this project by a domain expert as well as competency questions formulated in earlier work for this domain.</s>
+<s coords="7,53.80,397.11,240.47,8.97;7,53.80,408.07,240.24,8.97;7,53.80,419.03,240.24,8.97;7,53.80,429.99,75.83,8.97" xml:id="sentence-252">Furthermore, the model and knowledge graph were reviewed by five different experts with complementary knowledge regarding the domain and computational analysis in the context of digital humanities research.</s>
+</p>
+<p>
+<s coords="7,63.76,440.95,231.79,8.97;7,53.80,451.90,188.85,8.97" xml:id="sentence-253">The path for future work, appending more data sets and improving the model, is paved by the used methodology.</s>
+<s coords="7,245.47,451.90,48.57,8.97;7,53.80,462.86,241.75,8.97;7,53.80,473.82,222.80,8.97" xml:id="sentence-254">By following the framework of Jovanovik [17], which focused on reusable components, other researchers can complete further iterations.</s>
+<s coords="7,279.52,473.82,14.68,8.97;7,53.80,484.78,241.75,8.97;7,53.80,495.74,157.44,8.97" xml:id="sentence-255">Our documentation is made available to aid researchers in understanding the decisions made during the design.</s>
+<s coords="7,213.91,495.74,80.12,8.97;7,53.80,504.71,240.24,10.95;7,53.57,515.67,241.98,10.95;7,53.80,528.62,18.08,8.97" xml:id="sentence-256">Other data sets could include the Northern Musterrols <ref target="#b19" type="bibr">20</ref> or the Archangel and Elbing voyages <ref target="#b20" type="bibr">21</ref> in the Baltic sea and similar data sets from other countries.</s>
+</p>
+<p>
+<s coords="7,63.76,539.58,230.27,8.97;7,53.80,550.53,240.24,8.97;7,53.80,561.49,177.60,8.97" xml:id="sentence-257">It should also be noted that even with many changes in the second design iteration, the processing time of the second design iteration was much shorter than the first iteration.</s>
+<s coords="7,233.14,561.49,60.89,8.97;7,53.80,572.45,240.24,8.97;7,53.80,583.41,112.72,8.97" xml:id="sentence-258">Whereas the first iteration took around six weeks to complete, we finished the second design iteration in two weeks.</s>
+<s coords="7,168.88,583.41,125.15,8.97;7,53.80,594.37,201.39,8.97" xml:id="sentence-259">There is a steep learning curve in understanding the concepts, tooling, and methods used.</s>
+<s coords="7,257.44,594.37,37.58,8.97;7,53.80,605.33,240.24,8.97;7,53.80,616.29,211.10,8.97;7,53.67,642.98,5.10,5.48" xml:id="sentence-260">Hopefully, other researchers will initiate new iterations and utilize the results of this research project to face a less steep learning curve. <ref target="#b17" type="bibr">18</ref>
+</s>
+<s coords="7,59.27,644.50,114.23,6.97;7,53.67,651.39,240.38,8.49;7,53.80,660.88,237.35,6.97" xml:id="sentence-261">https://semanticweb.cs.vu.nl/eots/sparql <ref target="#b18" type="bibr">19</ref> The Knowledge Graph and scripts to produce it is published as four separate datasets through the following DOIs: Places dataset: https://doi.org/10.5281/zenodo.5509814</s>
+<s coords="7,292.89,660.88,1.65,6.97;7,53.57,668.85,159.85,6.97" xml:id="sentence-262">; VOCOPV dataset: https://doi.org/10.5281/zenodo.5509820</s>
+<s coords="7,215.07,668.85,79.44,6.97" xml:id="sentence-263">DAS dataset: https://doi.org/</s>
+<s coords="7,53.64,677.07,67.87,6.97" xml:id="sentence-264">10.5281/zenodo.5507139</s>
+<s coords="7,123.25,677.07,142.80,6.97;7,53.80,683.96,5.10,5.48" xml:id="sentence-265">; BGB data https://doi.org/10.5281/zenodo.5507126 20</s>
+<s coords="7,59.39,685.48,214.68,6.97" xml:id="sentence-266">https://www.noordelijkscheepvaartmuseum.nl/nl/collectie-en-onderzoek/</s>
+<s coords="7,53.80,693.71,72.07,6.97;7,53.80,700.60,170.45,8.49" xml:id="sentence-267">onderzoek/monsterrollen 21 http://resources.huygens.knaw.nl/archangel/app/inleiding</s>
+<s coords="7,327.92,342.32,137.89,8.97" xml:id="sentence-268">There are limitations to our project.</s>
+<s coords="7,468.97,342.32,90.74,8.97;7,317.95,353.27,240.24,8.97;7,317.96,364.23,91.72,8.97" xml:id="sentence-269">In the second design iteration, the proposed infrastructure is expanded with the use of OntoME and Geovistory.</s>
+<s coords="7,411.91,364.23,147.80,8.97;7,317.96,375.19,240.24,8.97;7,317.96,386.15,133.11,8.97" xml:id="sentence-270">However, the two extensions are not integrated entirely as they are web-based and, therefore, difficult to integrate without direct support.</s>
+<s coords="7,453.64,386.15,106.06,8.97;7,317.96,397.11,240.23,8.97;7,317.96,408.07,93.36,8.97" xml:id="sentence-271">In future iterations, the proposed architecture, including extensions, could be implemented in a production web server.</s>
+<s coords="7,414.03,408.07,144.17,8.97;7,317.96,419.03,240.24,8.97;7,317.96,429.99,72.62,8.97" xml:id="sentence-272">However, this responsibility is outside the scope of this research project and lies with the curators and creators of the data.</s>
+</p>
+<p>
+<s coords="7,327.92,440.95,230.27,8.97;7,317.62,451.90,101.21,8.97" xml:id="sentence-273">During the workshop with domain experts, another limitation was discussed: provenance.</s>
+<s coords="7,421.07,451.90,137.13,8.97;7,317.96,462.86,94.38,8.97" xml:id="sentence-274">Data-altering improvements can also be captured in the artifact.</s>
+<s coords="7,414.43,462.86,145.27,8.97;7,317.96,473.82,240.24,8.97;7,317.96,484.78,240.24,8.97;7,317.96,495.74,28.78,8.97" xml:id="sentence-275">If these changes are stored in the knowledge graph, other researchers could backtrack and understand the changes made in the data, thus improving the transparency of the artifact.</s>
+<s coords="7,349.19,495.74,209.01,8.97;7,317.96,506.70,161.95,8.97" xml:id="sentence-276">However, provenance information should be stored in a separate data layer to avoid graph pollution.</s>
+</p>
+<p>
+<s coords="7,327.92,517.66,231.79,8.97;7,317.96,528.62,150.44,8.97" xml:id="sentence-277">The developed artifact, a knowledge graph, aims to support historians and other users in their research.</s>
+<s coords="7,470.63,528.62,87.80,8.97;7,317.96,539.58,240.23,8.97;7,317.96,550.53,240.24,8.97;7,317.96,561.49,197.75,8.97" xml:id="sentence-278">While the methodology also aims to develop the artifact sustainably, such that the artifact can be used and expanded over the years, we can conclude that the artifact can be deemed usable, as illustrated by Table <ref target="#tab_1" type="table">1</ref>.</s>
+<s coords="7,517.95,561.49,40.24,8.97;7,317.96,572.45,240.24,8.97;7,317.96,583.41,23.39,8.97" xml:id="sentence-279">Close to all competency questions could be answered by using the knowledge graph.</s>
+<s coords="7,343.59,583.41,214.60,8.97;7,317.96,594.37,240.46,8.97;7,317.96,605.33,241.75,8.97;7,317.96,616.29,65.24,8.97" xml:id="sentence-280">Due to the unavailability of data regarding events that had an impact on a voyage but did not on the ship, the last competency question ('Can external factors, such as war, be linked to the intensity of shipping?')</s>
+<s coords="7,385.46,616.29,83.50,8.97" xml:id="sentence-281">could not be answered.</s>
+<s coords="7,471.21,616.29,86.99,8.97;7,317.96,627.25,240.24,8.97;7,317.96,638.21,240.24,8.97;7,317.96,649.16,170.76,8.97" xml:id="sentence-282">Such research questions provide a useful insight into the types of research questions that domain experts are interested in and a solid direction for future extensions of the model and knowledge graph.</s>
+</p>
+<p>
+<s coords="7,327.92,660.12,230.27,8.97;7,317.96,671.08,47.37,8.97" xml:id="sentence-283">Furthermore, the participants of the workshop further confirmed the usability.</s>
+<s coords="7,367.56,671.08,190.62,8.97;7,317.62,682.04,69.18,8.97" xml:id="sentence-284">A sidestep has been made by evaluating the artifact with the data story.</s>
+<s coords="7,388.83,682.04,169.36,8.97;8,53.80,86.92,240.47,8.97;8,53.80,97.88,127.72,8.97" xml:id="sentence-285">During this evaluation, it was apparent that the artifact was useful for a broader range of people even though only a single evaluation was performed.</s>
+</p>
+<p>
+<s coords="8,63.76,108.84,230.27,8.97;8,53.80,119.80,143.83,8.97" xml:id="sentence-286">The results regarding the sustainability of the methods used and the developed artifact are multifaceted.</s>
+<s coords="8,199.86,119.80,94.35,8.97;8,53.80,130.76,163.57,8.97" xml:id="sentence-287">There is no single answer that defines a sustainable artifact and process.</s>
+<s coords="8,219.39,130.76,74.64,8.97;8,53.80,141.72,240.24,8.97;8,53.80,152.68,64.22,8.97" xml:id="sentence-288">In the related project section, we discussed the sustainability of the approaches taken by earlier project.</s>
+<s coords="8,120.26,152.68,173.78,8.97;8,53.80,163.64,81.08,8.97" xml:id="sentence-289">We used these insights to shape our project in a more sustainable way.</s>
+</p>
+<p>
+<s coords="8,63.76,174.60,230.28,8.97;8,53.80,185.55,62.91,8.97" xml:id="sentence-290">Developing a sustainable knowledge graph consists of making design decisions.</s>
+<s coords="8,118.97,185.55,176.58,8.97;8,53.80,196.51,126.06,8.97" xml:id="sentence-291">On a high or detailed level, design decisions influence the sustainability aspects.</s>
+<s coords="8,182.56,196.51,111.48,8.97;8,53.80,207.47,241.61,8.97" xml:id="sentence-292">Picking between these design options can often lead to dilemmas where there is no clear answer.</s>
+<s coords="8,53.53,218.43,240.50,8.97;8,53.80,229.39,57.17,8.97" xml:id="sentence-293">The choice between data usability and data correctness is one of these dilemmas.</s>
+<s coords="8,113.04,229.39,181.00,8.97;8,53.80,240.35,124.59,8.97" xml:id="sentence-294">Do the data need to be accurate, even if this means the data will be difficult to process?</s>
+<s coords="8,180.14,240.35,113.89,8.97;8,53.80,251.31,114.95,8.97" xml:id="sentence-295">In this project, we chose to store both original and cleaned dates.</s>
+<s coords="8,170.99,251.31,123.04,8.97;8,53.80,262.27,82.96,8.97" xml:id="sentence-296">We faced another dilemma during the first review period.</s>
+<s coords="8,139.02,262.27,155.02,8.97;8,53.80,273.23,61.06,8.97" xml:id="sentence-297">In this review, we examined the utilization of CIDOC CRM.</s>
+<s coords="8,117.50,273.23,176.53,8.97;8,53.80,284.18,240.24,8.97;8,53.80,295.14,34.85,8.97" xml:id="sentence-298">The intention to re-use existing concepts of an ontology can conflict with the formal definition or use-case of that ontology.</s>
+<s coords="8,91.59,295.14,202.45,8.97;8,53.80,306.10,154.04,8.97" xml:id="sentence-299">This in turn diminishes the sustainability as different projects might use the concept differently.</s>
+</p>
+<p>
+<s coords="8,63.76,317.06,231.78,8.97;8,53.80,328.02,241.62,8.97" xml:id="sentence-300">The two design cycles make the project stand out as the development of the artifact benefits immensely from receiving feedback.</s>
+<s coords="8,53.80,338.98,241.75,8.97;8,53.80,349.94,70.20,8.97" xml:id="sentence-301">Design decisions made during the cycles are dependent on the researchers involved.</s>
+<s coords="8,126.23,349.94,167.80,8.97;8,53.80,360.90,165.82,8.97" xml:id="sentence-302">Personal beliefs, experience, and other factors might steer the artifact in a different direction.</s>
+<s coords="8,221.67,360.90,73.88,8.97;8,53.80,371.86,241.62,8.97" xml:id="sentence-303">Therefore, the transparent and accessible nature of the project is of utmost importance.</s>
+<s coords="8,53.80,382.81,240.40,8.97;8,53.80,393.77,241.62,8.97" xml:id="sentence-304">It means that other researchers can not only continue with further iterations but also backtrack decisions and take a different path.</s>
+<s coords="8,53.80,404.73,241.23,8.97;8,53.80,413.71,96.80,10.95" xml:id="sentence-305">Extended documentation, along with code an a Docker instance, can be found on GitHub. <ref type="bibr">22</ref>
+</s>
+</p>
+</div>
+<figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">
+<head>Figure 1 :</head>
+<label>1</label>
+<figDesc>
+<div>
+<p>
+<s coords="4,229.64,321.84,152.71,7.70" xml:id="sentence-306">Figure 1: Example of mapping branch</s>
+</p>
+</div>
+</figDesc>
+<graphic coords="4,79.02,83.69,453.97,224.15" type="bitmap"/>
+</figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">
+<head>Figure 2 :</head>
+<label>2</label>
+<figDesc>
+<div>
+<p>
+<s coords="6,208.99,367.32,194.01,7.70" xml:id="sentence-307">Figure 2: Visual integration of the four data sets</s>
+</p>
+</div>
+</figDesc>
+<graphic coords="6,53.80,83.68,504.41,269.64" type="bitmap"/>
+</figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">
+<head>Table 1 :</head>
+<label>1</label>
+<figDesc>
+<div>
+<p>
+<s coords="7,191.19,303.26,262.80,7.70" xml:id="sentence-308">Competency questions including statement regarding solvability</s>
+</p>
+</div>
+</figDesc>
+<table>
+<row>
+<cell>Question</cell>
+</row>
+</table>
+</figure>
+			<note n="1" place="foot" xmlns="http://www.tei-c.org/ns/1.0">https://www.w3.org/standards/semanticweb/ontology 2 http://ontome.net</note>
+			<note n="3" place="foot" xmlns="http://www.tei-c.org/ns/1.0">http://ontome.net/project/28 4 https://graphdb.ontotext.com/documentation/standard/release-notes.html 5 https://iisg.amsterdam/en/clariah 6 https://rml.io/tools/rmleditor/ 7 https://github.com/carml/carml 8 https://rml.io/yarrrml/matey/</note>
+			<note n="9" place="foot" xmlns="http://www.tei-c.org/ns/1.0">http://resources.huygens.knaw.nl/das Retrieved on: 13-05-2021 10 https://bgb.huygens.knaw.nl Retrieved on: 13-05-2021 11 https://www.geonames.org/; https://www.wikidata.org/</note>
+			<note n="13" place="foot" xmlns="http://www.tei-c.org/ns/1.0">https://metaphacts.com/product</note>
+			<note n="14" place="foot" xmlns="http://www.tei-c.org/ns/1.0">http://ontome.net/project/64 Last visited: 16-09-2021</note>
+			<note n="15" place="foot" xmlns="http://www.tei-c.org/ns/1.0">https://docs.geovistory.com/</note>
+			<note n="16" place="foot" xmlns="http://www.tei-c.org/ns/1.0">https://github.com/stijnschout3n/thewindinoursails/blob/main/Datastory.pdf<ref target="#b16" type="bibr">17</ref> https://semanticweb.cs.vu.nl/eots/</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">
+<head coords="8,53.80,436.54,117.56,9.37">ACKNOWLEDGMENTS</head>
+<p>
+<s coords="8,53.53,450.36,240.74,8.97;8,53.80,461.32,240.24,8.97;8,53.80,472.28,241.75,8.97;8,53.80,483.24,17.69,8.97" xml:id="sentence-309">The authors want to thank Francesco Beretta, Vincent Alamercerey for help with CIDOC CRM and participants in the workshop of KNAW HuC, the Huygens Institute and the University of Amsterdam.</s>
+</p>
+</div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Scientific competency questions as the basis for semantically enriched open pharmacological space development</title>
+		<author>
+			<persName>
+<forename type="first">Kamal</forename>
+<surname>Azzaoui</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Edgar</forename>
+<surname>Jacoby</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Stefan</forename>
+<surname>Senger</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Mabel</forename>
+<surname>Emiliano Cuadrado Rodríguez</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Barbara</forename>
+<surname>Loza</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Marta</forename>
+<surname>Zdrazil</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Antony</forename>
+<forename type="middle">J</forename>
+<surname>Pinto</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Victor</forename>
+<surname>Williams</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Jordi</forename>
+<surname>De La Torre</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Manuel</forename>
+<surname>Mestres</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Olivier</forename>
+<surname>Pastor</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Matthias</forename>
+<surname>Taboureau</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Christine</forename>
+<surname>Rarey</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Steve</forename>
+<surname>Chichester</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">F</forename>
+<surname>Pettifer ; Gerhard</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<surname>Ecker</surname>
+</persName>
+		</author>
+		<idno type="DOI">10.1016/j.drudis.2013.05.008</idno>
+		<ptr target="https://doi.org/10.1016/j.drudis.2013.05.008"/>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Discovery Today</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope from="843" to="852" unit="page"/>
+			<date type="published" when="2013-09">2013. Sept. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Geohistorical FAIR data: data integration and Interoperability using the OntoME platform. Time Machine Conference</title>
+		<author>
+			<persName>
+<forename type="first">Francesco</forename>
+<surname>Beretta</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Vincent</forename>
+<surname>Alamercery</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Sebastiaan</forename>
+<surname>Derks</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Lodewijk</forename>
+<surname>Petram</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Jonas</forename>
+<surname>Schneider</surname>
+</persName>
+		</author>
+		<ptr target="https://halshs.archives-ouvertes.fr/halshs-02314003Poster"/>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Understanding digital humanities</title>
+		<editor>David M. Berry</editor>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Palgrave</publisher>
+			<biblScope unit="page">701020028</biblScope>
+			<pubPlace>Macmillan, Houndmills, Basingstoke, Hampshire; New York. OCLC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Linked data for humanities research-The SPQR experiment</title>
+		<author>
+			<persName>
+<forename type="first">Tobias</forename>
+<surname>Blanke</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Gabriel</forename>
+<surname>Bodard</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Michael</forename>
+<surname>Bryant</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Stuart</forename>
+<surname>Dunn</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Mark</forename>
+<surname>Hedges</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Michael</forename>
+<surname>Jackson</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">David</forename>
+<surname>Scott</surname>
+</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">6th IEEE international conference on digital ecosystems and technologies (DEST)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2012">2012. 2012</date>
+			<biblScope from="1" to="6" unit="page"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Data matching: concepts and techniques for record linkage, entity resolution, and duplicate detection</title>
+		<author>
+			<persName>
+<forename type="first">Peter</forename>
+<surname>Christen</surname>
+</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page">809643173</biblScope>
+			<pubPlace>Berlin; New York. OCLC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">The CIDOC conceptual reference model</title>
+		<author>
+			<persName>
+<forename type="first">Crm</forename>
+<surname>Cidoc</surname>
+</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m">2012. Digital humanities in practice: Digitisation and digital resources in the humanities. Facet Publishing in association with UCL Centre for Digital Humanities</title>
+				<editor>
+			<persName>
+<forename type="first">Claire</forename>
+<surname>Warwick</surname>
+</persName>
+		</editor>
+		<editor>
+			<persName>
+<forename type="first">Melissa</forename>
+<forename type="middle">M</forename>
+<surname>Terras</surname>
+</persName>
+		</editor>
+		<editor>
+			<persName>
+<forename type="first">Julianne</forename>
+<surname>Nyhan</surname>
+</persName>
+		</editor>
+		<meeting>
+<address>
+<addrLine>London. OCLC</addrLine>
+</address>
+</meeting>
+		<imprint>
+			<biblScope unit="page">707962666</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The Dutch Ships and Sailors Project</title>
+		<author>
+			<persName>
+<forename type="first">Matthias</forename>
+<surname>Victor De Boer</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Rik</forename>
+<surname>Van Rossum</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<surname>Hoekstra</surname>
+</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">DHCommons Journal</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2015-07">2015. July 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Knowledge Graphs and Big Data Processing</title>
+		<author>
+			<persName>
+<forename type="first">A</forename>
+<surname>Dimou</surname>
+</persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-53199-7</idno>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">12072</biblScope>
+			<date type="published" when="2020">2020</date>
+			<publisher>Springer International Publishing</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Linking Maritime Datasets to Dutch Ships and Sailors Cloud -Case studies on Archangelvaart and Elbing</title>
+		<author>
+			<persName>
+<forename type="first">Jeroen</forename>
+<surname>Entjes</surname>
+</persName>
+		</author>
+		<ptr target="http://www.victordeboer.com/wp-content/uploads/2015/08/jeroen_entjes_final_thesis.pdf"/>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Ph.D. Dissertation. VU Amsterdam</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The Formative Years of the Modern Corporation: The Dutch East India Company VOC</title>
+		<author>
+			<persName>
+<forename type="first">Oscar</forename>
+<surname>Gelderblom</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Abe</forename>
+<surname>De</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Jong</forename>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Joost</forename>
+<surname>Jonker</surname>
+</persName>
+		</author>
+		<idno type="DOI">10.1017/S0022050713000879</idno>
+		<ptr target="https://doi.org/10.1017/S0022050713000879"/>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Economic History</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope from="1050" to="1076" unit="page"/>
+			<date type="published" when="2013-12">2013. Dec. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName>
+<forename type="first">Bernhard</forename>
+<surname>Haslhofer</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Antoine</forename>
+<surname>Isaac</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Rainer</forename>
+<surname>Simon</surname>
+</persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-63962-8_291-1</idno>
+		<idno type="arXiv">arXiv:1803.03198</idno>
+		<title level="m">Knowledge Graphs in the Libraries and Digital Humanities Domain</title>
+				<imprint>
+			<date type="published" when="2018">2018. 2018</date>
+			<biblScope from="1" to="8" unit="page"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Recognising and linking entities in old dutchtext: a case study on voc notary records</title>
+		<author>
+			<persName>
+<forename type="first">B</forename>
+<surname>Hendriks</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">M</forename>
+<surname>Groth</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<surname>Van Erp</surname>
+</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Collect &amp; Connect</title>
+		<imprint>
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Design Science in Information Systems Research</title>
+		<author>
+			<persName>
+<surname>Hevner</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Park</forename>
+<surname>March</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Ram</forename>
+</persName>
+		</author>
+		<idno type="DOI">10.2307/25148625</idno>
+		<ptr target="https://doi.org/10.2307/25148625"/>
+	</analytic>
+	<monogr>
+		<title level="j">MIS Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2004">2004. 2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Evaluating and measuring the value, use and impact of digital collections</title>
+		<editor>Lorna M. Hughes</editor>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Facet Publ</publisher>
+			<biblScope unit="page">774166752</biblScope>
+			<pubPlace>London. OCLC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Linked open data infrastructure for digital humanities in finland</title>
+		<author>
+			<persName>
+<forename type="first">Eero</forename>
+<surname>Hyvönen</surname>
+</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Digital Humanities in Nordic Countries</title>
+				<meeting>Digital Humanities in Nordic Countries</meeting>
+		<imprint>
+			<date type="published" when="2020">2020. 2020</date>
+			<biblScope unit="volume">2020</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Linked Data Application Development Methodology</title>
+		<author>
+			<persName>
+<forename type="first">Milos</forename>
+<surname>Jovanovik</surname>
+</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Ph.D. Dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<author>
+			<persName>
+<forename type="first">Lodewijk</forename>
+<surname>Petram</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Marijn</forename>
+<surname>Koolen</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Rutger</forename>
+<surname>Van Koert</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Melvin</forename>
+<surname>Wevers</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Jelle</forename>
+<surname>Van Lottum</surname>
+</persName>
+		</author>
+		<title level="m">Data on the Maritime Workforce of the Dutch East India Company in the 18th Century. to be published</title>
+				<imprint/>
+	</monogr>
+	<note>n.d.. n. d.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Wikidata as a knowledge graph for the life sciences</title>
+		<author>
+			<persName>
+<forename type="first">Andra</forename>
+<surname>Waagmeester</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Gregory</forename>
+<surname>Stupp</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Sebastian</forename>
+<surname>Burgstaller-Muehlbacher</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">M</forename>
+<surname>Benjamin</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Malachi</forename>
+<surname>Good</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<surname>Griffith</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">L</forename>
+<surname>Obi</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Kristina</forename>
+<surname>Griffith</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Henning</forename>
+<surname>Hanspers</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Toby</forename>
+<forename type="middle">S</forename>
+<surname>Hermjakob</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Kevin</forename>
+<surname>Hudson</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<surname>Hybiske</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">M</forename>
+<surname>Sarah</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Magnus</forename>
+<surname>Keating</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Michael</forename>
+<surname>Manske</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Daniel</forename>
+<surname>Mayers</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Elvira</forename>
+<surname>Mietchen</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Alexander</forename>
+<forename type="middle">R</forename>
+<surname>Mitraka</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Timothy</forename>
+<surname>Pico</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Anders</forename>
+<surname>Putman</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<surname>Riutta</surname>
+</persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.52614</idno>
+		<ptr target="https://doi.org/10.7554/eLife.52614"/>
+	</analytic>
+	<monogr>
+		<title level="j">Nuria Queralt-Rosinach</title>
+		<editor>Lynn M Schriml, Thomas Shafee, Denise Slenter, Ralf Stephan, Katherine Thornton, Ginger Tsueng, Roger Tu, Sabah Ul-Hasan, Egon Willighagen, Chunlei Wu, and Andrew I Su</editor>
+		<imprint>
+			<biblScope unit="issue">9</biblScope>
+			<date type="published" when="2020-03">2020. March 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Design science methodology for information systems and software engineering</title>
+		<author>
+			<persName>
+<forename type="first">J</forename>
+<surname>Roel</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<surname>Wieringa</surname>
+</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The FAIR Guiding Principles for scientific data management and stewardship</title>
+		<author>
+			<persName>
+<forename type="first">D</forename>
+<surname>Mark</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Michel</forename>
+<surname>Wilkinson</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<surname>Dumontier</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Jan</forename>
+<surname>Ijsbrand</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Gabrielle</forename>
+<surname>Aalbersberg</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Myles</forename>
+<surname>Appleton</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">; -Willem</forename>
+<surname>Axton</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Luiz</forename>
+<surname>Boiten</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Silva</forename>
+<surname>Bonino Da</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Philip</forename>
+<forename type="middle">E</forename>
+<surname>Santos</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Jildau</forename>
+<surname>Bourne</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Anthony</forename>
+<forename type="middle">J</forename>
+<surname>Bouwman</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Tim</forename>
+<surname>Brookes</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Mercè</forename>
+<surname>Clark</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Ingrid</forename>
+<surname>Crosas</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Olivier</forename>
+<surname>Dillo</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Scott</forename>
+<surname>Dumon</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Chris</forename>
+<forename type="middle">T</forename>
+<surname>Edmunds</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Richard</forename>
+<surname>Evelo</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Alejandra</forename>
+<surname>Finkers</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Alasdair</forename>
+<forename type="middle">J G</forename>
+<surname>Gonzalez-Beltran</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Paul</forename>
+<surname>Gray</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Carole</forename>
+<surname>Groth</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Jeffrey</forename>
+<forename type="middle">S</forename>
+<surname>Goble</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Jaap</forename>
+<surname>Grethe</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Peter</forename>
+<forename type="middle">A</forename>
+<surname>Heringa</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Rob</forename>
+<surname>C 't Hoen</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Tobias</forename>
+<surname>Hooft</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Ruben</forename>
+<surname>Kuhn</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Joost</forename>
+<surname>Kok</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Scott</forename>
+<forename type="middle">J</forename>
+<surname>Kok</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<forename type="first">Maryann</forename>
+<forename type="middle">E</forename>
+<surname>Lusher</surname>
+</persName>
+		</author>
+		<author>
+			<persName>
+<surname>Martone</surname>
+</persName>
+		</author>
+		<idno type="DOI">10.1038/sdata.2016.18</idno>
+		<ptr target="https://doi.org/10.1038/sdata.2016.18"/>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Data</title>
+		<editor>Susanna-Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris A. Swertz, Mark Thompson, Johan van der Lei, Erik van Mulligen</editor>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">160018</biblScope>
+			<date type="published" when="2016-06">Jan. Jan Velterop. Jun Zhao, and Barend Mons. 2016. Dec. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

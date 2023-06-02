@@ -1,0 +1,694 @@
+[
+    {
+        "id": 1,
+        "text": "Livestock production in developed countries has undergone profound changes in recent decades and this development seems to continue apace. One consequence is that manure is being -and will be -produced on fewer but larger farms. Data on the bulk of manure nutrients from each country are published by Eurostat, but it is not known how manure is distributed across farms of different sizes. This study 1) puts forward an estimate of the distribution of main manure nutrients between farms of different sizes, 2) estimates how this distribution will change in the near future and 3) discusses the land use effects of this development. Results suggest that by the year 2030 farms housing > 500 livestock units will produce more than two-thirds of all manure phosphorus, whereas the proportion in 2010 was one-third. With the Nitrates Directive limiting the use of organic nitrate of manure, growing farms need to acquire, or conclude contracts for the use of, 4.9 million hectares from exiting farms or the open market in order to comply with manure spreading requirements. This shift will involve 64% of the total spreading area of 2010 and 15% of the total utilized agricultural area of the regions studied. In light of these predictions, international nutrient policies should consider the evolution of farm structure in general and manure phosphorus agglomeration in particular. Also salient is improved co-operation beyond the single farm level to ensure the functionality of crop-livestock systems.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 2,
+        "text": "1 This does not hold for systems where manure nutrients are scarce and animal numbers are very low. Generally, local accumulation of manure is excessive in farming systems of the developed world.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 3,
+        "text": "2 http://ec.europa.eu/eurostat/statistics-explained/index.php/ Glossary:Livestock_unit_(LSU)",
+        "references": [],
+        "footnotes": [],
+        "urls": [
+            "http://ec.europa.eu/eurostat/statistics-explained/index.php/"
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Agricultural production has become increasingly specialized. The productivity of the agricultural sector has increased at the same time as less intensive, mixed-farming systems that integrate crop and livestock production decline in many countries or regions (Peyraud et al., 2014). In the case of livestock production, specialization often means a transition to larger production units. It also increases the segregation of livestock and crop production areas (Gaign\u00e9 et al., 2011). On the one hand, specialization may strengthen the competitiveness of livestock production and promote innovations; on the other, it may hasten a transition toward monoculture and impede the supply of organic matter in the form of manure to crop production regions. Structural change may also alter the pressure that manure nutrients place on nutrient runoff and water quality by increasing the agglomeration of animals.",
+        "references": [
+            "<biblStruct xml:id=\"b28\">\n<analytic>\n<title level=\"a\" type=\"main\">Integrated crop and livestock systems in Western Europe and South America: a review</title>\n<author>\n<persName><forename type=\"first\">J.-L</forename><surname>Peyraud</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">M</forename><surname>Taboada</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">L</forename><surname>Delaby</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Eur. J. Agron</title>\n<imprint>\n<biblScope unit=\"volume\">57</biblScope>\n<biblScope from=\"31\" to=\"42\" unit=\"page\"/>\n<date type=\"published\" when=\"2014\">2014</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b11\">\n<analytic>\n<title level=\"a\" type=\"main\">Does regulation of manure land application work against agglomeration economies? Theory and evidence from the French hog sector</title>\n<author>\n<persName><forename type=\"first\">C</forename><surname>Gaign\u00e9</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">J</forename><surname>Le Gallo</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Larue</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">B</forename><surname>Schmitt</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Amer. J. Agr. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">94</biblScope>\n<biblScope from=\"116\" to=\"132\" unit=\"page\"/>\n<date type=\"published\" when=\"2011\">2011</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 5,
+        "text": "Livestock production contributes to spatial accumulation of nutrients. Confined animal facilities use imported feed to supplement feedstuff grown on the farm's own fields. The total amount of nutrients in manure generated by the production animals may exceed the agronomic needs of the crops grown within an economically sensible distance of the animal facility. Indeed, more nutrients tend to be imported into intensive animal production areas in the form of animal feed than are exported from them in the form of end products. This results in nutrient surpluses, which increase the risk of nutrient loading to surface and ground waters (Koelsch, 2005;Innes, 2000;Baerenklau et al., 2008). The higher the number of production animals in a facility, the greater the likelihood of nutrients accumulating locally.",
+        "references": [
+            "<biblStruct xml:id=\"b21\">\n<analytic>\n<title level=\"a\" type=\"main\">Evaluating livestock system environmental performance with wholefarm nutrient balance</title>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Koelsch</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Environ. Qual</title>\n<imprint>\n<biblScope unit=\"volume\">34</biblScope>\n<biblScope unit=\"issue\">1</biblScope>\n<biblScope from=\"149\" to=\"155\" unit=\"page\"/>\n<date type=\"published\" when=\"2005\">2005</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b17\">\n<analytic>\n<title level=\"a\" type=\"main\">The economics of livestock waste and its regulation</title>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Innes</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Amer. J. Agr. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">82</biblScope>\n<biblScope from=\"97\" to=\"117\" unit=\"page\"/>\n<date type=\"published\" when=\"2000\">2000</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b0\">\n<analytic>\n<title level=\"a\" type=\"main\">Effects of nutrient restrictions on confined animal facilities: insights from a structural-dynamic model</title>\n<author>\n<persName><forename type=\"first\">K</forename><forename type=\"middle\">A</forename><surname>Baerenklau</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">N</forename><surname>Nergis</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><forename type=\"middle\">A</forename><surname>Schwabe</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Can. J. Agric. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">56</biblScope>\n<biblScope from=\"219\" to=\"241\" unit=\"page\"/>\n<date type=\"published\" when=\"2008\">2008</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 6,
+        "text": "The nutrient concentration in manure and the agronomic needs for nutrients vary for different production animals and crops. If phosphorus is not the focus of a farm's manure use plan and the application of manure nitrogen matches nitrogen uptake, cropland may receive an excess of phosphorus, as manure typically contains more phosphorus than crops require. Where phosphorus accumulates in soil, the concentration of dissolved reactive phosphorus in runoff gradually increases, which in turn accelerates eutrophication of surface waters (Pote et al., 1996;Uusitalo et al., 2016).",
+        "references": [
+            "<biblStruct xml:id=\"b29\">\n<analytic>\n<title level=\"a\" type=\"main\">Relating extractable soil phosphorus to phosphorus losses in runoff</title>\n<author>\n<persName><forename type=\"first\">D</forename><forename type=\"middle\">H</forename><surname>Pote</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><forename type=\"middle\">C</forename><surname>Daniel</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">P</forename><forename type=\"middle\">A</forename><surname>Moore</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">D</forename><forename type=\"middle\">J</forename><surname>Nichols</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">A</forename><forename type=\"middle\">N</forename><surname>Sharpley</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">D</forename><forename type=\"middle\">R</forename><surname>Edwards</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Soil Sci. Soc. Am. J</title>\n<imprint>\n<biblScope unit=\"volume\">60</biblScope>\n<biblScope unit=\"issue\">3</biblScope>\n<biblScope from=\"855\" to=\"859\" unit=\"page\"/>\n<date type=\"published\" when=\"1996\">1996</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b36\">\n<analytic>\n<title level=\"a\" type=\"main\">A simple dynamic model of soil test phosphorus responses to phosphorus balances</title>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Uusitalo</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">J</forename><surname>Hyv\u00e4luoma</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">E</forename><surname>Valkama</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">E</forename><surname>Ketoja</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Vaahtoranta</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">P</forename><surname>Virkaj\u00e4rvi</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">J</forename><surname>Gr\u00f6nroos</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Lemola</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Ylivainio</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Rasa</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">E</forename><surname>Turtola</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Environ. Qual</title>\n<imprint>\n<biblScope unit=\"volume\">45</biblScope>\n<biblScope unit=\"issue\">3</biblScope>\n<biblScope from=\"977\" to=\"983\" unit=\"page\"/>\n<date type=\"published\" when=\"2016\">2016</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 7,
+        "text": "The Baltic Sea suffers from eutrophication caused by excessive nutrient loading. Most anthropogenic nutrient flows are linked to the food chain. We have been able to curtail the point-wise leaks in this chain relatively efficiently, but controlling the non-point loading from https://doi.org/10.1016/j.agsy.2019.102771 Received 18 July 2018; Received in revised form 13 December 2019; Accepted 13 December 2019 \u204e Corresponding author. E-mail addresses: olli.niskanen@luke.fi (O. Niskanen), antti.iho@luke.fi (A. Iho), leena.kalliovirta@helsinki.fi (L. Kalliovirta).",
+        "references": [],
+        "footnotes": [],
+        "urls": [
+            "https://doi.org/10.1016/j.agsy.2019.102771"
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Available online 19 December 2019 0308-521X/ \u00a9 2019 Elsevier Ltd. All rights reserved.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 9,
+        "text": "T agriculture has proven more difficult. Large volumes of manure are being generated and handled in agricultural production. Countries with a significant proportion (or all) of their land acreage in the Baltic Sea drainage basin (Denmark, Estonia, Finland, Latvia, Lithuania, Poland, Germany and Sweden) apply manure in some form as fertilizer amounting to a total of 1370 thousand tons of nitrogen and 280 thousand tons of phosphorus (Eurostat, 2017). Manure nutrients account for 34% of all nitrogen inputs and 51% of all phosphorus inputs used in agriculture. Given that the total annual phosphorus loading to the Baltic is currently around 30 thousand tons (HELCOM, 2019), any changes in animal agriculture that affect the handling, storage and application of manure are likely to have impacts on nutrient loading to the Baltic Sea.",
+        "references": [
+            "<biblStruct xml:id=\"b7\">\n<monogr>\n<title level=\"m\" type=\"main\">Gross Nutrient Balance on Agricultural Land</title>\n<author>\n<persName><surname>Eurostat</surname></persName>\n</author>\n<ptr target=\"http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rn310retrieved10.11.2017a\"/>\n<imprint>\n<date type=\"published\" when=\"2017\">2017</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 10,
+        "text": "The spatial accumulation of nutrients in intensive livestock regions has its roots in the high transportation costs of manure, for the value of manure as a source of plant nutrients declines as the hauling distances increase. The bottom line economically is that it is rational to apply manure approximately up to a distance where its marginal costs, comprising transportation and application, equal those of chemical fertilizers (Innes, 2000;Schnitkey and Miranda, 1993).",
+        "references": [
+            "<biblStruct xml:id=\"b17\">\n<analytic>\n<title level=\"a\" type=\"main\">The economics of livestock waste and its regulation</title>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Innes</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Amer. J. Agr. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">82</biblScope>\n<biblScope from=\"97\" to=\"117\" unit=\"page\"/>\n<date type=\"published\" when=\"2000\">2000</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b31\">\n<analytic>\n<title level=\"a\" type=\"main\">The impact of pollution controls on livestock-crop producers</title>\n<author>\n<persName><forename type=\"first\">G</forename><surname>Schnitkey</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">M</forename><surname>Miranda</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Agric. Resour. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">18</biblScope>\n<biblScope from=\"25\" to=\"36\" unit=\"page\"/>\n<date type=\"published\" when=\"1993\">1993</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 11,
+        "text": "Transportation costs largely explain why a farming system having one thousand facilities with 50 animals generates a different manure accumulation pattern than one having 50 facilities with one thousand animals. Both continuous and discrete crop response models suggest that, ceteris paribus, the more animals there are in a production unit, the higher the rates at which manure will be applied in the manure application area (e.g. Innes, 2000;Schnitkey and Miranda, 1993;Iho et al., 2016). 1  As the trends described above suggest, the change in livestock production toward larger farms stands to increase the risk of local nutrient surpluses. Then again, large farms may have better opportunities than small ones to respond to the high transaction costs of environmental regulation, for example by adopting new technologies (see, e.g., Falconer, 2000). In short, while structural change creates risks of spatial nutrient accumulation and elevated runoff, it also offers opportunities to address these threats if the utilization of manure nutrients is regulated properly and coherently across national borders.",
+        "references": [
+            "<biblStruct xml:id=\"b17\">\n<analytic>\n<title level=\"a\" type=\"main\">The economics of livestock waste and its regulation</title>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Innes</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Amer. J. Agr. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">82</biblScope>\n<biblScope from=\"97\" to=\"117\" unit=\"page\"/>\n<date type=\"published\" when=\"2000\">2000</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b31\">\n<analytic>\n<title level=\"a\" type=\"main\">The impact of pollution controls on livestock-crop producers</title>\n<author>\n<persName><forename type=\"first\">G</forename><surname>Schnitkey</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">M</forename><surname>Miranda</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Agric. Resour. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">18</biblScope>\n<biblScope from=\"25\" to=\"36\" unit=\"page\"/>\n<date type=\"published\" when=\"1993\">1993</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b16\">\n<monogr>\n<title level=\"m\" type=\"main\">Optimal Regional Regulation of Animal Waste. Modeling, Dynamics, Optimization and Bioeconomics III</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Iho</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">D</forename><surname>Parker</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">D</forename><surname>Zilberman</surname></persName>\n</author>\n<imprint>\n<date type=\"published\" when=\"2016\">2016</date>\n<publisher>Springer</publisher>\n<biblScope from=\"1\" to=\"23\" unit=\"page\"/>\n<pubPlace>Cham</pubPlace>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b9\">\n<analytic>\n<title level=\"a\" type=\"main\">Farm-level constraints on agri-environmental scheme participation: a transactional perspective</title>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Falconer</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Rural. Stud</title>\n<imprint>\n<biblScope unit=\"volume\">16</biblScope>\n<biblScope unit=\"issue\">3</biblScope>\n<biblScope from=\"379\" to=\"394\" unit=\"page\"/>\n<date type=\"published\" when=\"2000\">2000</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 12,
+        "text": "Without regulation, there is a risk that manure will be applied excessively to fields near production facilities, increasing the risk of nutrient loading (Kaplan et al., 2004;Smith et al., 2001a;Smith et al., 2001b). Encouragingly, there is a range of technical options to mitigate the accumulation of manure. For example, recycling of nutrients from segregated crop and livestock production systems can be enhanced through measures such as processing manure, creating match-making markets between manure suppliers and crop farmers and standardizing the nutrient content of recycled manure (Nesme et al., 2015).",
+        "references": [
+            "<biblStruct xml:id=\"b19\">\n<analytic>\n<title level=\"a\" type=\"main\">The manure hits the land: economic and environmental implications when land application of nutrients is constrained</title>\n<author>\n<persName><forename type=\"first\">J</forename><forename type=\"middle\">D</forename><surname>Kaplan</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">R</forename><forename type=\"middle\">C</forename><surname>Johansson</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">M</forename><surname>Peters</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Am. J. Agric. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">86</biblScope>\n<biblScope unit=\"issue\">3</biblScope>\n<biblScope from=\"688\" to=\"700\" unit=\"page\"/>\n<date type=\"published\" when=\"2004\">2004</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b32\">\n<analytic>\n<title level=\"a\" type=\"main\">Nutrient losses by surface run-off following the application of organic manures to arable land</title>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Smith</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">D</forename><surname>Jackson</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Pepper</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Nitrogen. Environ. Pollut</title>\n<imprint>\n<biblScope unit=\"volume\">1</biblScope>\n<biblScope from=\"41\" to=\"51\" unit=\"page\"/>\n<date type=\"published\" when=\"2001\">2001a</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b33\">\n<analytic>\n<title level=\"a\" type=\"main\">Nutrient losses by surface run-off following the application of organic manures to arable land. 2. Phosphorus</title>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Smith</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">D</forename><surname>Jackson</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">P</forename><surname>Withers</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Environ. Pollut</title>\n<imprint>\n<biblScope unit=\"volume\">112</biblScope>\n<biblScope from=\"53\" to=\"60\" unit=\"page\"/>\n<date type=\"published\" when=\"2001\">2001b</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b26\">\n<analytic>\n<title level=\"a\" type=\"main\">Effects of crop and livestock segregation on phosphorus resource use: a systematic, regional analysis</title>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Nesme</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Senthilkumar</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Mollier</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Pellerin</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Eur. J. Agron</title>\n<imprint>\n<biblScope unit=\"volume\">71</biblScope>\n<biblScope from=\"88\" to=\"95\" unit=\"page\"/>\n<date type=\"published\" when=\"2015\">2015</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 13,
+        "text": "The current size distribution of livestock farms in the Baltic Sea basin has arisen in different economic and societal contexts. Prior to 1989, farms in the Western Bloc developed under market-oriented systems and the common agricultural policy (CAP), which differed from the planned economies of the Eastern Bloc (Buchenrieder et al., 2009). Individual and rather small-scale farming have traditionally been the norm in Poland, whereas in the other Baltic countries, including Russia, many small farms were combined into large collective farms -kolkhozes or sovkhozes -at some point during the Soviet era (ibid.). The legacy of different historical pathways can still be seen in the stark differences in farm size distribution between countries, although today agriculture along the Baltic coast operates under relatively similar market conditions.",
+        "references": [
+            "<biblStruct xml:id=\"b4\">\n<analytic>\n<title level=\"a\" type=\"main\">20 years of transition in the Agri-food sector</title>\n<author>\n<persName><forename type=\"first\">G</forename><surname>Buchenrieder</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">J</forename><forename type=\"middle\">H</forename><surname>Hanf</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Pieniadz</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Agrarwirtschaft</title>\n<imprint>\n<biblScope unit=\"volume\">58</biblScope>\n<biblScope from=\"285\" to=\"293\" unit=\"page\"/>\n<date type=\"published\" when=\"2009\">2009</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 14,
+        "text": "This research aims to 1) give an estimate of the distribution between different-sized farms of the main manure nutrients, 2) estimate how this distribution will change in the near future and 3) discuss the land use effects of this development. Our estimate of how the size of livestock farms will develop in the course of the next decade, until 2030, has been derived using a Markov chain model, which applies a stochastic approach assessing the probability that a farm will move among a set of discrete size classes (Zimmermann et al. 2012). The Markov results are combined with other data sources in order to visualize how the projected development will affect the allocation of manure nutrients between farms. The anticipated land use effects are discussed in conjunction with the relation between farm size and stocking rate.",
+        "references": [
+            "<biblStruct xml:id=\"b38\">\n<analytic>\n<title level=\"a\" type=\"main\">Structural change of European dairy farms -a crossregional analysis</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Zimmermann</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Heckelei</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Agric. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">63</biblScope>\n<biblScope from=\"576\" to=\"603\" unit=\"page\"/>\n<date type=\"published\" when=\"2012\">2012</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 15,
+        "text": "The rest of the paper is organized as follows. In the section to follow we introduce materials and methods. The third section presents the results followed by the fourth section of discussion and concluding fifth section, with a discussion of the implications of the research.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 16,
+        "text": "We use data from the Farm Structure Survey (FSS), which encompassed Denmark, Estonia, Finland, Germany, Latvia, Lithuania, Poland and Sweden. The data include all livestock farms and cover the years 2003, 2005, 2007, 2010 and 2013. As most of Germany does not belong to the catchment area of the Baltic Sea, it was decided that only three NUTS 1 regions -the states Brandenburg (DE4), Mecklenburg-Western Pomerania (DE8) and Schleswig-Holstein (DEF) -would be included in the analysis. The animal numbers are measured in livestock units (LSU), applying the conversion coefficients used by Eurostat. 2  The years between FSS's have been retrieved from national statistics if available. 3 Years that we were unable to confirm or were not found nationally have been interpolated from FSS data by matching a thirddegree equation over the observed data points. The analysis focuses on three major animal groups -bovines, pigs and poultry -divided into four categories according to the size of the herd (Table 1). The category \"Other livestock\" includes all other species noted by Eurostat. The thresholds for the categories are those used in the original survey data.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 17,
+        "text": "An examination of the above data reveals a number of similarities in development across countries: The number of farms has decreased drastically in all countries, a development driven mainly by the trend in Poland (Fig. 1).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 18,
+        "text": "There are some apparent inconsistencies in the FSS data when used for analysing different production lines. For some countries, the sum of bovine, pig and poultry farms is higher than the total number of livestock farms in the same statistic, as farms with several animal species have been counted in the statistics for each animal. Thus, our estimates draw on aggregated data that are based on \"total livestock\" and therefore count livestock farms only once. To derive projections on manure nutrient quantities, we decompose the LSUs into animal (and manure) types. The procedure is explained in detail in the following section.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 19,
+        "text": "Structural change has been recognized as an important factor to include in ex-ante modelling of agricultural policy (Zimmermann et al., 2009). One successful approach for modelling structural change is to estimate transition probabilities from one size class to another using Markov chain analysis. The probabilities can be further used to project development in the coming years. Transition probabilities are assumed to be stationary or non-stationary depending on whether they change over time. Many recent Markov chain studies rely on macrodata, with prior information used to improve estimation efficiency (e.g. Zepeda, 1995;Karantininis, 2002;Stokes, 2006;Tonini and Jongeneel, 2009;Huettel and Jongeneel, 2011;Ben Arfa et al., 2015). Zimmermann and Heckelei (2012) combined FADN microdata and FSS macrodata in estimating the probability of dairy farm transition. In their work, microdata provided prior information on changes in farm size, which they applied in estimating the macrodata.",
+        "references": [
+            "<biblStruct xml:id=\"b39\">\n<analytic>\n<title level=\"a\" type=\"main\">Modelling farm structural change for integrated ex-ante assessment: review of methods and determinants</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Zimmermann</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Heckelei</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">I</forename><surname>Perez Dominguez</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Environ. Sci. Pol</title>\n<imprint>\n<biblScope unit=\"volume\">12</biblScope>\n<biblScope from=\"601\" to=\"618\" unit=\"page\"/>\n<date type=\"published\" when=\"2009\">2009</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b37\">\n<analytic>\n<title level=\"a\" type=\"main\">Technical change and the structure of production: a non-stationary Markov analysis</title>\n<author>\n<persName><forename type=\"first\">L</forename><surname>Zepeda</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Eur. Rev. Agric. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">22</biblScope>\n<biblScope from=\"41\" to=\"60\" unit=\"page\"/>\n<date type=\"published\" when=\"1995\">1995</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b20\">\n<analytic>\n<title level=\"a\" type=\"main\">Information-based estimators for the non-stationary transition probability matrix: an application to the Danish pork industry</title>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Karantininis</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">107</biblScope>\n<biblScope from=\"275\" to=\"290\" unit=\"page\"/>\n<date type=\"published\" when=\"2002\">2002</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b34\">\n<analytic>\n<title level=\"a\" type=\"main\">Entry, exit, and structural change in Pennsylvania's dairy sector</title>\n<author>\n<persName><forename type=\"first\">J</forename><surname>Stokes</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Agric. Resour. Econ. Rev</title>\n<imprint>\n<biblScope unit=\"volume\">35</biblScope>\n<biblScope from=\"357\" to=\"373\" unit=\"page\"/>\n<date type=\"published\" when=\"2006\">2006</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b35\">\n<analytic>\n<title level=\"a\" type=\"main\">The distribution of dairy farm size in Poland: a Markov approach based on information theory</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Tonini</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Jongeneel</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Appl. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">41</biblScope>\n<biblScope from=\"55\" to=\"69\" unit=\"page\"/>\n<date type=\"published\" when=\"2009\">2009</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b15\">\n<analytic>\n<title level=\"a\" type=\"main\">How has the EU milk quota affected patterns of herd-size change?</title>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Huettel</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Jongeneel</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Eur. Rev. Agric. Econ</title>\n<imprint>\n<biblScope from=\"1\" to=\"31\" unit=\"page\"/>\n<date type=\"published\" when=\"2011\">2011</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b2\">\n<analytic>\n<title level=\"a\" type=\"main\">Agricultural policies and structural change in French dairy farms: a nonstationary Markov model</title>\n<author>\n<persName><forename type=\"first\">N</forename><surname>Ben Arfa</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Daniel</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">F</forename><surname>Jacquet</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Karantininis</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Can. J. Agric. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">63</biblScope>\n<biblScope from=\"19\" to=\"42\" unit=\"page\"/>\n<date type=\"published\" when=\"2015\">2015</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b38\">\n<analytic>\n<title level=\"a\" type=\"main\">Structural change of European dairy farms -a crossregional analysis</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Zimmermann</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Heckelei</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Agric. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">63</biblScope>\n<biblScope from=\"576\" to=\"603\" unit=\"page\"/>\n<date type=\"published\" when=\"2012\">2012</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 20,
+        "text": "The general notation of the Markov model presented here follows Zimmermann et al. (2009). The movement of farms between farm size groups follows a first order Markov chain, i.e. it is assumed that the probability of the movement of a farm at time t to another farm type in the period t + 1 is independent of earlier periods. The notation can be written as:",
+        "references": [
+            "<biblStruct xml:id=\"b39\">\n<analytic>\n<title level=\"a\" type=\"main\">Modelling farm structural change for integrated ex-ante assessment: review of methods and determinants</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Zimmermann</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Heckelei</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">I</forename><surname>Perez Dominguez</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Environ. Sci. Pol</title>\n<imprint>\n<biblScope unit=\"volume\">12</biblScope>\n<biblScope from=\"601\" to=\"618\" unit=\"page\"/>\n<date type=\"published\" when=\"2009\">2009</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 21,
+        "text": "where the number of farms n in farm type j at time t depends on the number of farms in all farm types i in the period before (t \u2212 1) multiplied by their respective transition probabilities p ij to move from farm type i to farm type j in one time period. The total number of farm types is N. The probability constraints, non-negativity (p ij \u2265 0) and summingup to unity ( (2)",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 22,
+        "text": "The transition probabilities can be used to predict future farm numbers in any state:",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 23,
+        "text": "(3) where the row vector X 0 is the initial starting state vector or the initial configuration of individuals in the N states, x 0i represents the number of individuals in state i during time period t = 0,and the row vector X t is the tth configuration vector.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 24,
+        "text": "The estimation of the transition probabilities was produced using the SAS 9.3. PROC ENTROPY generalized maximum entropy (GME) method (SAS Institute, 2014). Detailed description is presented in Appendix 1. The method allows the researcher to include a priori information, that is, support points. In principle, this is a subjective element which is selected by authors, but nevertheless widely used in the literature to improve estimation efficiency (e.g. Karantininis, 2002).",
+        "references": [
+            "<biblStruct xml:id=\"b20\">\n<analytic>\n<title level=\"a\" type=\"main\">Information-based estimators for the non-stationary transition probability matrix: an application to the Danish pork industry</title>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Karantininis</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">107</biblScope>\n<biblScope from=\"275\" to=\"290\" unit=\"page\"/>\n<date type=\"published\" when=\"2002\">2002</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 25,
+        "text": "Table 2 shows the prior information we have applied in the estimation. Put briefly, our logic has been to set upper bounds on the probabilities for each of the transitions that are possible within the model. We rule out movement from larger to smaller farms and the",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 26,
+        "text": "Livestock units by animal group and size class in eight countries in 2010 (Eurostat, 2016).   The rationale behind the prior information chosen is the following. When we consider the frequency of changes in farm size in one year, the most probable situation is that a farm will remain in the same size class as in the previous year. Where an increase in size occurs, moving up one size class in a single year is more probable than moving up two or three (Ben Arfa et al. 2014). The data does not contain evidence for transitions to smaller size classes and, therefore, such transitions were dropped from the estimation.",
+        "references": [
+            "<biblStruct xml:id=\"b6\">\n<monogr>\n<title level=\"m\" type=\"main\">Livestock: Number of Farms and Heads of Animals by Livestock Units (LSU) of Farm and NUTS 2 Regions</title>\n<author>\n<persName><surname>Eurostat</surname></persName>\n</author>\n<ptr target=\"http://ec.europa.eu/eurostat/web/products-datasets/-/ef_olslsuregretrieved10.11.2017\"/>\n<imprint>\n<date type=\"published\" when=\"2016\">2016</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b1\">\n<analytic>\n<title level=\"a\" type=\"main\">Agricultural Policies and Structural Change in French Dairy Farms: A Nonstationary Markov Model</title>\n<author>\n<persName><forename type=\"first\">N</forename><surname>Ben Arfa</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Daniel</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">F</forename><surname>Jacquet</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Karantininis</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Can. J. Agric. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">63</biblScope>\n<biblScope from=\"19\" to=\"42\" unit=\"page\"/>\n<date type=\"published\" when=\"2014\">2014</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 27,
+        "text": "Moving to and returning from an inactive state (exit/entry) is allowed in the model. Inactivity means that the farm is not engaged in livestock production. However, because of the long-term commitment required by the business, the probability of entry is often considered to be zero or close to zero, and thus no positive support points were set for entry. Small farms are more likely to exit than large farms and the smaller the farm, the higher the probability of its exit (Foltz, 2004;Tonini and Jongeneel, 2009).",
+        "references": [
+            "<biblStruct xml:id=\"b10\">\n<analytic>\n<title level=\"a\" type=\"main\">Entry, exit, and farm size: assessing an experiment in dairy price policy</title>\n<author>\n<persName><forename type=\"first\">J</forename><surname>Foltz</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Amer. J. Agr. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">86</biblScope>\n<biblScope from=\"594\" to=\"604\" unit=\"page\"/>\n<date type=\"published\" when=\"2004\">2004</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b35\">\n<analytic>\n<title level=\"a\" type=\"main\">The distribution of dairy farm size in Poland: a Markov approach based on information theory</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Tonini</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Jongeneel</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Appl. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">41</biblScope>\n<biblScope from=\"55\" to=\"69\" unit=\"page\"/>\n<date type=\"published\" when=\"2009\">2009</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 28,
+        "text": "The model was estimated separately for each country, with the resulting transition probabilities used to generate projections of farm numbers in each country and class for the coming years.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 29,
+        "text": "After farm numbers in each size class were predicted by the Markov model, we multiplied the number of farms in each size class by the average number of animals in the corresponding class as reported in the FSS. The observed data showed minor growth in the average number of animals in the three smallest size categories. In the projection, we took this into account by estimating a linear trend describing the behaviour of the observed data, which indicated that the average number of animals in each size class increases slightly each year. The change within a particular class is limited, however, given that when farms with < 50 LSUs start to grow, they quickly move up into the next size class (50 \u2264 LSU \u2329100). Similarly, in the (50 \u2264 LSU < 100 LSU) and (100 \u2264 LSU < 500) classes, when a farm increases in size, it moves into a higher class. Taking minor growth within a class into account with the trend is important in the case of Poland, for example, where the number of farms in the smallest size class is very high and therefore even a small change in the average number of animals within the size class has an effect. The largest class, that corresponding to 500 or more LSUs, has the remaining animals, whereby the sum of all animals matches the true total.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 30,
+        "text": "The quantities of manure nutrients are derived from Eurostat (2017), in which annual manure production is estimated by multiplying animal numbers by the excretion coefficients per animal. With manure being a substantial input in the total nutrient balance, excretion coefficients have a considerable impact on the final outcome. It should be pointed out that excretion coefficients vary widely between countries. In part this reflects differences in farming practices, and in part differences stemming from the methodology applied and the availability of data for calculating the coefficients (Eurostat, 2017). Nitrogen and phosphorus values for bovines, pigs and poultry by country are presented in Table 3.",
+        "references": [
+            "<biblStruct xml:id=\"b7\">\n<monogr>\n<title level=\"m\" type=\"main\">Gross Nutrient Balance on Agricultural Land</title>\n<author>\n<persName><surname>Eurostat</surname></persName>\n</author>\n<ptr target=\"http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rn310retrieved10.11.2017a\"/>\n<imprint>\n<date type=\"published\" when=\"2017\">2017</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b7\">\n<monogr>\n<title level=\"m\" type=\"main\">Gross Nutrient Balance on Agricultural Land</title>\n<author>\n<persName><surname>Eurostat</surname></persName>\n</author>\n<ptr target=\"http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rn310retrieved10.11.2017a\"/>\n<imprint>\n<date type=\"published\" when=\"2017\">2017</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 31,
+        "text": "The quantities of manure for cattle, pigs and poultry using data compiled from Luostarinen (2013) for the reference years 2009 or 2010. The amounts of slurry and solid manure are tabulated separately in the case of cattle and pig manure. Poultry manure is all in essentially solid form (Table 4).",
+        "references": [
+            "<biblStruct xml:id=\"b23\">\n<analytic>\n<title level=\"a\" type=\"main\">Energy Potential of Manure in the Baltic Sea Region: Biogas Potential &amp; Incentives and Barriers for Implementation</title>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Luostarinen</surname></persName>\n</author>\n<ptr target=\"http://www.balticmanure.eu/en/knowledge_forum/reports/project_results/manure_energy/energy_potential_of_manure_in_the_baltic_sea_region_biogas_potential__incentives_and_barriers_for_implementation.htm\"/>\n</analytic>\n<monogr>\n<title level=\"m\">Baltic Forum for Innovative Technologies for Sustainable Manure Management Available</title>\n<imprint>\n<date type=\"published\" when=\"2013\">2013</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 32,
+        "text": "The Markov estimations have been carried out using data on aggregate LSUs per farm, and thus the exact number of bovines, pigs or poultry in each size class could not be estimated for the projected years. Nutrients per LSU in each size class were determined by first quantifying the totals of manure nutrients per animal species using Eurostat (2017) 4 and each total was then divided by the total number of LSUs. We also know the number of LSUs by animal type in each size class for the year 2010, which yields the manure nutrients per LSU on average in each size class (Table 5). Small herds tend to have larger coefficients per LSU, a pattern that can be explained with reference to animal species: 75% of animals which are not bovine, pigs or poultry are in this class. Variation between countries is smaller between large herds. Overall variation in average kg nutrient per LSU unit is moderate.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 33,
+        "text": "Coefficients evolve over time, for example, with growth in productivity or changes in animal feeding and farming practices. Due to the uncertainty of future trends, we use fixed excretion coefficients determined from 2010 data for the entire period. The nutrient content of manure produced by each animal is the same in all farm size categories, but where the distribution of animal types within a size class varies, the nutrient content allocated to each LSU varies correspondingly. Animal types within size categories in 2010 are presented in Fig. 2.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 34,
+        "text": "The projected changes in farm size to 2030 are calculated using on the discrete probability estimates of the changes. The figures for the last observed year of farm sizes are then multiplied annually by the probabilities of a change in farm size, which results in a stationary projection of farm size evolution up to the year 2030 and a projection of the total number of farms having livestock. The number of production animals may vary, however, as the largest size category is defined as \"over 500 LSU\". Accordingly, the estimate of the total number of animals in 2030 had to be obtained from another source.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 35,
+        "text": "Total nitrogen and phosphorus in manure by animal group and country, tons (Eurostat, 2017).  2013) and have more variation between countries than nutrient coefficients. Therefore, the results for nutrient quantities are more reliable than those for manure quantities.",
+        "references": [
+            "<biblStruct xml:id=\"b7\">\n<monogr>\n<title level=\"m\" type=\"main\">Gross Nutrient Balance on Agricultural Land</title>\n<author>\n<persName><surname>Eurostat</surname></persName>\n</author>\n<ptr target=\"http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rn310retrieved10.11.2017a\"/>\n<imprint>\n<date type=\"published\" when=\"2017\">2017</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 36,
+        "text": "CAPRI (Common Agricultural Policy Regionalised Impact) model) is a comparative-static partial equilibrium model developed for global and regional analysis of policy and market impact assessments in the agricultural sector. CAPRI consists of two main interacting components: the first is agricultural supply for the EU and selected European countries (supply module), the second a global equilibrium model for agricultural commodity markets (market module) (Britz and Witzke, 2014). In the supply model, each region has a model of its own that represents all agricultural production and related output as well as all input use at regional level (Jansson and Heckelei, 2011).",
+        "references": [
+            "<biblStruct xml:id=\"b3\">\n<monogr>\n<title level=\"m\" type=\"main\">CAPRI modeling documentation</title>\n<author>\n<persName><forename type=\"first\">W</forename><surname>Britz</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">P</forename><surname>Witzke</surname></persName>\n</author>\n<ptr target=\"http://www.capri-model.org/docs/capri_documentation.pdf\"/>\n<imprint>\n<date type=\"published\" when=\"2014\">2014</date>\n<pubPlace>Bonn, Germany Available</pubPlace>\n</imprint>\n<respStmt>\n<orgName>Tech. Rep. University of Bonn, Institute for Food and Resource Economics</orgName>\n</respStmt>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b18\">\n<analytic>\n<title level=\"a\" type=\"main\">Estimating a primal model of regional crop supply in the European Union</title>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Jansson</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Heckelei</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Agric. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">62</biblScope>\n<biblScope from=\"137\" to=\"152\" unit=\"page\"/>\n<date type=\"published\" when=\"2011\">2011</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 37,
+        "text": "The CAPRI baseline, a projection made under a specific set of assumptions, represents a consistent view on the likely evolution of global agricultural markets over some future time horizon. The baseline reflects the evolution of key variables representing the production of the agricultural sector in a ceteris paribus situation. The main exogenous drivers affecting the evolution of agriculture include agricultural policies and macroeconomic developments (e.g. population growth, GDP growth, inflation, the price of crude oil, technological change, and policies). The baseline is a combination of expert data (e.g. from FAO-OECD, the European Commission, the World Bank, other research teams and even private enterprises) and simple statistical trends in data contained in the CAPRI database, which are all put together to map out a sound development path (Britz and Witzke, 2014). The current baseline assumptions are described in Espinosa et al., 2016;Eurostat, 2016, among other sources.",
+        "references": [
+            "<biblStruct xml:id=\"b3\">\n<monogr>\n<title level=\"m\" type=\"main\">CAPRI modeling documentation</title>\n<author>\n<persName><forename type=\"first\">W</forename><surname>Britz</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">P</forename><surname>Witzke</surname></persName>\n</author>\n<ptr target=\"http://www.capri-model.org/docs/capri_documentation.pdf\"/>\n<imprint>\n<date type=\"published\" when=\"2014\">2014</date>\n<pubPlace>Bonn, Germany Available</pubPlace>\n</imprint>\n<respStmt>\n<orgName>Tech. Rep. University of Bonn, Institute for Food and Resource Economics</orgName>\n</respStmt>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b5\">\n<analytic>\n<title level=\"a\" type=\"main\">Incorporating farm structural change in models assessing the Common Agricultural Policy: An application in the CAPRI farm type model</title>\n<author>\n<persName><forename type=\"first\">M</forename><surname>Espinosa</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Gocht</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Heckelei</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Gomez Y Paloma</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Policy Model</title>\n<imprint>\n<biblScope unit=\"volume\">38</biblScope>\n<biblScope from=\"1040\" to=\"1059\" unit=\"page\"/>\n<date type=\"published\" when=\"2016\">2016</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b6\">\n<monogr>\n<title level=\"m\" type=\"main\">Livestock: Number of Farms and Heads of Animals by Livestock Units (LSU) of Farm and NUTS 2 Regions</title>\n<author>\n<persName><surname>Eurostat</surname></persName>\n</author>\n<ptr target=\"http://ec.europa.eu/eurostat/web/products-datasets/-/ef_olslsuregretrieved10.11.2017\"/>\n<imprint>\n<date type=\"published\" when=\"2016\">2016</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 38,
+        "text": "In the present case, CAPRI only serves to provide an external reference for the total number of animals in each region for the years 2010 and 2030. We utilized the baseline scenario with CAP policy settings for the period 2014-2020. The results of total regional animal numbers and production volumes were obtained from the years 2010 and 2030. Annual estimates for years between 2010 and 2030 were not used, as a discussion of variation of non-stationary results falls out of the scope of the paper.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 39,
+        "text": "FSS data provide us farm LSUs by size category. In addition to being able to estimate the changes in the numbers of farm animals, we want to know how LSU per quantity of arable land (i.e. the stocking rate, LSU/ha) is related to farm size. This is important when thinking of solutions to the problem of spatial accumulation of manure nutrients. If stocking rates remain unchanged as the number of LSUs increases, solutions will most likely involve increasing manure utilization within the farm. If stocking rates decrease with increasing sizes, solutions must be",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 40,
+        "text": "Manure quantities, tons of main type by country (Luostarinen, 2013).",
+        "references": [
+            "<biblStruct xml:id=\"b23\">\n<analytic>\n<title level=\"a\" type=\"main\">Energy Potential of Manure in the Baltic Sea Region: Biogas Potential &amp; Incentives and Barriers for Implementation</title>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Luostarinen</surname></persName>\n</author>\n<ptr target=\"http://www.balticmanure.eu/en/knowledge_forum/reports/project_results/manure_energy/energy_potential_of_manure_in_the_baltic_sea_region_biogas_potential__incentives_and_barriers_for_implementation.htm\"/>\n</analytic>\n<monogr>\n<title level=\"m\">Baltic Forum for Innovative Technologies for Sustainable Manure Management Available</title>\n<imprint>\n<date type=\"published\" when=\"2013\">2013</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 41,
+        "text": "Cattle solid Pig slurry Pig solid Poultry solid Total 1) (inc. urine)",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 42,
+        "text": "a Only the regions DE8 and DEF were included in the publication. DE4 has been included by the authors. sought in increased coordination of manure utilization across farms, that is, in the agricultural community at large. Unfortunately, FSS data do not enable us to link LSU size classes with the amount of arable land available on a farm. To address this shortcoming, we chose to use data from the Farm Accountancy Data Network (FADN) covering the period 2004-2015(FADN, 2018)), which allows us to estimate the relationship between stocking rate and number of animals externally and generalize the estimated coefficients. The FADN does not provide farm-level data but does give aggregate numbers of livestock and area used for agriculture averaged over multiple cross-classifications, such as farm type, region and output terms. The measure of farm size in the FADN data is an economic one, Standard Output (SO),5 which divides farms into 6 size categories according to the economic size of the farm. Animal numbers are strongly correlated with SO. However, if the data set has too few farms per crossclassified category, the average of that particular category is not reported.",
+        "references": [
+            "<biblStruct xml:id=\"b10\">\n<analytic>\n<title level=\"a\" type=\"main\">Entry, exit, and farm size: assessing an experiment in dairy price policy</title>\n<author>\n<persName><forename type=\"first\">J</forename><surname>Foltz</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Amer. J. Agr. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">86</biblScope>\n<biblScope from=\"594\" to=\"604\" unit=\"page\"/>\n<date type=\"published\" when=\"2004\">2004</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [
+            "<note n=\"5\" place=\"foot\" xml:id=\"foot_0\" xmlns=\"http://www.tei-c.org/ns/1.0\">The definition of Standard Output is provided at https://ec.europa.eu/agriculture/rica/methodology1_en.cfm</note>"
+        ],
+        "urls": []
+    },
+    {
+        "id": 43,
+        "text": "We utilized relevant production types-( 1) ruminants (milk production and other grazing livestock) and (2) granivores-from the 8 countries and 12 years, cross-tabulated over the SO farm sizes. Altogether, the data that were extracted consisted of 801 farm aggregates of different sizes (Table 6).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 44,
+        "text": "Finally, to obtain a link between animal numbers and arable land, we fitted a linear ordinary least squares (OLS) model to estimate stocking rate (SR) (LSU/ha) with the LSU value of the farm aggregate and production type as explanatory variables (4). The latter was included as a dummy variable (D R ), with farms engaged in milk production and maintaining other grazing livestock receiving a value of 1 and granivore farms a value of 0. Stocking rate is derived as:",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 45,
+        "text": "where \u03b2 0 is a constant, \u03b2 1 the estimated coefficient for livestock units and \u03b2 2 is the estimated coefficient for the dummy variable representing grazing livestock.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 46,
+        "text": "To conclude the materials and methods section, Table 7 presents a summary of the main data sources and their contribution to the aims set for the research, that is, to 1) put forward an estimate of the distribution of main manure nutrients between farms of different sizes, 2) to estimate how this distribution will change in the near future and 3) to discuss the land use effects of this development.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 47,
+        "text": "The estimated probabilities of the observed farm size transitions from 2003 to 2013 are presented in Table 8. Only estimates are presented, because opportunities for statistical inference are very limited when applying a macrodata approach. This is why most macrodata studies do not provide standard errors (Huettel and Jongeneel, 2011).",
+        "references": [
+            "<biblStruct xml:id=\"b15\">\n<analytic>\n<title level=\"a\" type=\"main\">How has the EU milk quota affected patterns of herd-size change?</title>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Huettel</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">R</forename><surname>Jongeneel</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Eur. Rev. Agric. Econ</title>\n<imprint>\n<biblScope from=\"1\" to=\"31\" unit=\"page\"/>\n<date type=\"published\" when=\"2011\">2011</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 48,
+        "text": "Estimated development of farm size for all livestock farms is presented in Fig. 3. The projection indicates that there will be a drastic increase in farm size in the eastern countries, that is, Latvia, Lithuania and Poland, with the expected change particularly dramatic in the last. These countries have many small farms, the number of which has already decreased considerably. Statistics show that between 2003 and 2013 more than half (1.1 million) of the farms in these countries exited livestock production. According to our estimate, some 670,000 more livestock farms will do so between 2014 and 2030 (Fig. 3). ",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 49,
+        "text": "CAPRI generates predictions of changes in regional production, drawing on, among other sources, differences in production costs between regions connected by trade; these differences lie in resource availability and competitiveness. The model sets restrictions on the rate of regional development.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 50,
+        "text": "The baseline scenario generated by CAPRI shows moderate development in animal numbers; the outcomes prompt some interesting observations. The total number of bovines is projected to decrease in all countries, except for regions in Northern Germany. Some of the decrease can be attributed to the predicted increase in the average milk yield: the market will have a high supply of milk, possibly resulting in a decrease in the number of dairy cows and, in turn, lower calf production. It also seems that the number of pigs will decrease in most countries, an exception being Denmark, which still has some room for growth. It is estimated that growth will occur in all countries, but will be especially robust in Poland (Table 9).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 51,
+        "text": "Combining information on total numbers of animals with the estimate of farm numbers in each size category, we can go on to provide an estimate of how the total is distributed across farms of different sizes (Fig. 4).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 52,
+        "text": "According to our estimates, roughly 7.6 million LSUs in total will shift to farms in larger size classes by the year 2030. This would entail annual investments in animal housing for an additional 380,000 LSUs; that is, roughly 2% of production animals would change farm size class annually. The total number of animals shows only a slight change. Looking at the Polish scenario in more detail, we see that > 4.4 million  LSUs are estimated to shift to farms in the largest size class (over 500 LSUs) by the year 2030. This would mean that 64% of all animals will be on farms in this size class in 2030. In Denmark, for instance, 69% of LSUs were already in this class in 2010.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 53,
+        "text": "The estimate of animal numbers in the different size categories allows us to further tabulate values based on animal numbers. We start from total manure production in tons, which seems to decrease (Fig. 5). This development is primarily attributable to the decrease in total number of bovines.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 54,
+        "text": "The decrease in total tons of nitrogen can also be seen primarily as a result of the decrease in total number of bovines (Fig. 6). However, the balance between nitrogen and phosphorus seems to change in that a slight increase in manure phosphorus is expected (Fig. 7). Here, too, distribution by country differs. The amount of phosphorus in manure increases in Poland (18.8 million tons), whereas the corresponding quantity decreases in all other countries. This is mainly because poultry   manure has a high phosphorus content and the CAPRI baseline predicts a relatively large increase in poultry production in Poland.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 55,
+        "text": "To quantify the pressure that structural change will cause on the demand for agricultural land, we estimate how stocking rate (measured as LSU/ha) is related to the number of animals by using a linear regression model (OLS). The link between the stocking rate and farm size, which is inferred from the SO classes of the eight different countries (801 observations), was best explained using a linear model with a dummy variable representing ruminants (D R ) (Table 10). The overall model fit (R 2 ) was 0.825.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 56,
+        "text": "The coefficients indicate that the average stocking rate for a 100-LSU ruminant farm is 2.627 + 100*0.003 + 1*(\u22122.105) = 0.822 LSU/ha and similarly 2.927 LSU/ha for a granivore farm. The estimate indicates that an increase of one livestock unit is associated with an increase of 0.65 ha of agricultural land in the case of ruminant farms (milk and other grazing livestock) and 0.27 ha in the case of granivore farms.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 57,
+        "text": "These estimates imply that, on average, ruminant farms produced 130 kg of manure nitrogen and 19 kg of manure phosphorus per hectare per additional LSU. The corresponding figures for granivore farms were 139 kg of N and 43 kg of P per hectare. If the only binding regulation on nutrient use in agriculture is the Nitrates Directive, which only requires the level of organic manure nitrogen spread per hectare to be < 170 kg/ha in the vulnerable zones, a ruminant farm is allowed to apply average of 24.8 kg of manure phosphorus per hectare, and a granivore farm an average of 53.1 kg of phosphorus per hectare with average manures. On average, both farm types have ample arable land to meet the requirements of the Nitrates Directive regarding the spreading of manure. With average manures, the requirement is 0.49 ha per 1 ruminant LSU and 0.22 ha per 1 granivore LSU. 6 This approach ignores agronomic constraints and concentrates solely on the regulatory point of view. The amount of area required by the projected structural development is presented in Table 11.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 58,
+        "text": "The figures indicate that the overall average manure spreading area for a livestock farm will increase from 6.4 to 22.4 ha between the years 2010 and 2030. In the case of Latvia, the average spreading area of the large-farm group seems to decrease, a result of many expanding farms entering the class and (compared to the situation in 2010, when the entire class had no more than a few very large farms) the average size of the class decreasing. In total, growing farms need to acquire 4.9 million hectares from exiting farms in order to fulfil the current manure   spreading requirements. This shift represents 64% of the total spreading area of 2010 and 15% of the total utilized agricultural area of the regions studied. The growing farms do not necessarily have to acquire the land they require and place them under their own management if cooperation between crop and livestock systems functions smoothly.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 59,
+        "text": "We have analysed the size distributions of livestock farms in eight Baltic Sea littoral countries and provided a scenario for their development by 2030. Our results show that structural change will continue to shift animal production to larger farms, with this in turn affecting the location and intensity of future manure nutrient applications. Given that nutrients in animal manure are the dominant pool in society's nutrient cycle, this shift should be addressed in future regulatory policies.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 60,
+        "text": "We have estimated the structural change of livestock farms using a stationary Markov chain. The analysis draws on combined multiple data sources to disaggregate bulk statistics on agriculture and create farm-size categories. The different data sources proved to be satisfactorily comparable, even though the statistics were collected for different purposes and by several different authorities.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 61,
+        "text": "According to the CAPRI model, the numbers of bovine and pig animals are not expected to grow. This same view has been forward by, for example, OECD-FAO (2017) in its Agricultural Outlook for 2017-2026, which is taken into account when the CAPRI baseline is formed. However, productivity in both subsectors can still be improved, whereby production volumes can be partly or fully maintained with a lower animal population, particularly in the case of dairy farming.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 62,
+        "text": "In our analysis, structural change is captured through estimated probabilities that a farm will move up one or more size classes or exit production. Interestingly, the lowest probability (88%) of staying in the same class is found for the second-smallest class (50-99.99 LSU). It is lower than that for the smallest class (93%). This might reflect the fact that families operating the smallest farms tend to have income outside farming. However, running a farm operation with > 50 LSUs is essentially full-time work. Hence, to maintain growth in family income and productivity, such farms are more likely to either grow (4% moving to a higher size class) or to exit livestock production (7%) and find another way to make a living. Operations in the highest LSU class (over 500 LSU) are most likely to stay in business (95%). In that category, production is rarely discontinued entirely, even when the farm goes bankrupt.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 63,
+        "text": "The biggest increase in total production is expected in poultry production. This is an ongoing trend in which most of the growth in poultry production is from poultry fattening, with broiler production showing the highest growth.7 New investments in poultry housing tend to be extensive and therefore farms making such investments easily end up in the top size class if they are not there already. MacDonald ( 2008) reported a similar shift in US broiler operators. In the case of small broiler enterprises, the household's income derived primarily from offfarm income, with the farm providing only a modest amount of additional income. For larger operations, the enterprise was typically the primary source of the owning household's income and also had more possibilities to finance further investments.",
+        "references": [],
+        "footnotes": [
+            "<note n=\"7\" place=\"foot\" xml:id=\"foot_1\" xmlns=\"http://www.tei-c.org/ns/1.0\">https://ec.europa.eu/agriculture/poultry/</note>"
+        ],
+        "urls": []
+    },
+    {
+        "id": 64,
+        "text": "The change in the number of farms is expected to be most pronounced in Poland. Using Polish data from the year 2000, Latruffe et al. (2004) estimated that the size-efficiency relationship for both crop and livestock farms in Poland is positive given that large farms are more efficient. Based on observations from the year 2013, Martinho (2017) concluded that there are still inefficiencies in the Polish agricultural sector, these reflecting the unsustainable economic status of small farms. In this light, it seems inevitable that structural change in Poland will continue.",
+        "references": [
+            "<biblStruct xml:id=\"b22\">\n<analytic>\n<title level=\"a\" type=\"main\">Determinants of technical efficiency of crop and livestock farms in Poland</title>\n<author>\n<persName><forename type=\"first\">L</forename><surname>Latruffe</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Balcombe</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Davidova</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Zawalinska</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Appl. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">36</biblScope>\n<biblScope from=\"1255\" to=\"1263\" unit=\"page\"/>\n<date type=\"published\" when=\"2004\">2004</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b25\">\n<analytic>\n<title level=\"a\" type=\"main\">Efficiency, total factor productivity and returns to scale in a sustainable perspective: an analysis in the European Union at farm and regional level</title>\n<author>\n<persName><forename type=\"first\">V</forename><surname>Martinho</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">Land Use Policy</title>\n<imprint>\n<biblScope unit=\"volume\">68</biblScope>\n<biblScope from=\"232\" to=\"245\" unit=\"page\"/>\n<date type=\"published\" when=\"2017\">2017</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 65,
+        "text": "We linked future manure nutrient production to the anticipated structural change. If our estimated development occurs, manure will be produced in fewer locations but in larger units, resulting in pressure to address the increasing logistical challenges related to manure. The FADN sample revealed that on average livestock farms currently have enough arable land of their own to meet the requirements of the Nitrates Directive on manure spreading. Having sufficient land available might also be required by environmental permits regionally. However, if only nitrogen spreading is regulated, higher amounts of phosphorus may be spread in granivore manure compared to the typical agronomic needs of crops. In the future estimate, if only nitrogen spreading is regulated the total area for manure spreading decreases slightly. This is because the share of bovines in the total animal population is expected to decrease (\u22125%) and that of poultry to grow (4%).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 66,
+        "text": "The main limitations of our research are related to manure nutrient data, which according to Eurostat had limited reliability. This could be seen in manure nutrient concentrations, which varied significantly across regions and countries. Although some variation should be expected due to differences in production intensity, animal breeds and cultivation practices, the reliability and comparability of manure data should be improved through improved co-operation between countries' statistical services.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 67,
+        "text": "Our structural development scenario represents \"business as usual\". A stationary model cannot incorporate policy changes or market shocks in the analysis. Non-stationary models could bring elasticity to the estimation and allow scenario estimates with different price and demand pathways. Also, provision of microdata to support the prior assumptions as Zimmermann and Heckelei (2012) suggested, could improve reliability of the results. However, even if future research applies nonstationary models and has refined prior information available, the principal arguments we have put forward based on our analysis should remain qualitatively unchanged.",
+        "references": [
+            "<biblStruct xml:id=\"b38\">\n<analytic>\n<title level=\"a\" type=\"main\">Structural change of European dairy farms -a crossregional analysis</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Zimmermann</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Heckelei</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Agric. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">63</biblScope>\n<biblScope from=\"576\" to=\"603\" unit=\"page\"/>\n<date type=\"published\" when=\"2012\">2012</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 68,
+        "text": "The idea of disaggregating sector-level model results to the farmtype level is not new. The farm type (FT) extension to the CAPRI model  (Gocht and Britz, 2011, Gocht et al., 2012, Espinosa et al., 2016;Eurostat, 2016) has been built to disaggregate the totals of the agricultural sector to farm types, defined by 13 farm specialization options and three economic size options for all regions. Production in each region is disaggregated to the number of farms of a specific farm type, of which up to nine are selected to represent each region in the dataset according to their importance. Simultaneous dependence (which means that decisions on investments in production capacities are contingent on the markets and vice versa) between the ex-ante analysis of structural change within or in connection to a partial equilibrium model is not assessed. An elaborated CAPRI-FT could provide a foundation for a similar or more sophisticated study of nutrient disaggregation to farm types such as this paper has presented.",
+        "references": [
+            "<biblStruct xml:id=\"b12\">\n<analytic>\n<title level=\"a\" type=\"main\">EU-wide farm type supply models in CAPRI -how to consistently disaggregate sector models into farm type models</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Gocht</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">W</forename><surname>Britz</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Policy Model</title>\n<imprint>\n<biblScope unit=\"volume\">33</biblScope>\n<biblScope from=\"146\" to=\"167\" unit=\"page\"/>\n<date type=\"published\" when=\"2011\">2011</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b13\">\n<monogr>\n<title level=\"m\" type=\"main\">Modelling farm structural change. Joint Research Centre, Institute for Prospective Technological Studies</title>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Gocht</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">N</forename><surname>R\u00f6der</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Neuenfeldt</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">H</forename><surname>Storm</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Heckelei</surname></persName>\n</author>\n<editor>Espinosa, M., Gomez y Paloma, S.</editor>\n<imprint>\n<date type=\"published\" when=\"2012\">2012</date>\n<publisher>Publications Office of the European Union</publisher>\n<pubPlace>Luxembourg</pubPlace>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b5\">\n<analytic>\n<title level=\"a\" type=\"main\">Incorporating farm structural change in models assessing the Common Agricultural Policy: An application in the CAPRI farm type model</title>\n<author>\n<persName><forename type=\"first\">M</forename><surname>Espinosa</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">A</forename><surname>Gocht</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">T</forename><surname>Heckelei</surname></persName>\n</author>\n<author>\n<persName><forename type=\"first\">S</forename><surname>Gomez Y Paloma</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Policy Model</title>\n<imprint>\n<biblScope unit=\"volume\">38</biblScope>\n<biblScope from=\"1040\" to=\"1059\" unit=\"page\"/>\n<date type=\"published\" when=\"2016\">2016</date>\n</imprint>\n</monogr>\n</biblStruct>",
+            "<biblStruct xml:id=\"b6\">\n<monogr>\n<title level=\"m\" type=\"main\">Livestock: Number of Farms and Heads of Animals by Livestock Units (LSU) of Farm and NUTS 2 Regions</title>\n<author>\n<persName><surname>Eurostat</surname></persName>\n</author>\n<ptr target=\"http://ec.europa.eu/eurostat/web/products-datasets/-/ef_olslsuregretrieved10.11.2017\"/>\n<imprint>\n<date type=\"published\" when=\"2016\">2016</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 69,
+        "text": "The present study contributes to the literature by detailing one possible structural change scenario for the development of livestock farm structure in eight Baltic Sea littoral countries and by disaggregating manure nutrients (nitrogen and phosphorus) from the total volume of production into LSU-based farm size classes.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 70,
+        "text": "The EU promotes an increase in farm size because this generally leads to improved productivity. A substantial change has already taken place in the distribution of sizes and might continue in the near future. While this trend may pose a challenge where nutrient agglomeration is concerned, it could also open up new opportunities for manure processing: these would emerge due to \"critical mass\" accumulation, which in this context means that demand for manure management solutions increases in areas where oversupply of manure starts to cause expenses. However, proper recycling of nutrients between crop and livestock production systems is easier if farms are not spatially segregated. Structural change will increase demand for land on which to spread manure, and in areas where expanding farms compete against each other for this land, prices will increase and the overuse of manure may increase as well. The risk is larger in the case of granivore farms than it is on ruminant farms. For this reason, it is important to maintain livestock production in many agricultural regions. Another lesson that emerges here is that international nutrient use policies should consider the evolution of farm structure in undertaking to relieve potential agglomeration problems and to avoid concentration in regions where environmental conditions are poorest.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 71,
+        "text": "2004 to 2013; elements 11 to 20 contain the proportions in the class of farms with at least 50 but fewer than 100 animals from the years 2004 to 2013, and so forth until elements 41 to 50, which contain the proportions of the entry/exit class from the years 2004 to 2013. I 5 is the 5 \u00d7 5 identity matrix; the 10 \u00d7 5 matrix X 10 has vectors x t \u2032, t = 2003, \u2026, 2012 as rows; \u2297 denotes the Kronecker product; p is a 25 \u00d7 1 parameter vector that contains the columns of the transition matrix P stacked one after another from the first to the last (that is, p = vec(P)); and U 10 is a 50 \u00d7 1 vector of disturbances u it ordered according to the elements in vector Y 10 .",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 72,
+        "text": "The parameter estimates for P and w t with constraints (5), ( 6), ( 7) and ( 8) are obtained by numerically maximizing entropy: where the initial value of w itm , w itm 0 , and the initial value of the transition probabilities p ij , q ij , are set to (0.0005,0.3333,0.3333,0.3333,0.0005) by the estimation algorithm.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 73,
+        "text": "In the estimation we employed the additional restrictions on the transition probabilities that are defined in Table 2 at chapter 2.2.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 74,
+        "text": "Livestock farms, 1000 farms (Fig. 3).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 75,
+        "text": "Total livestock, 1000 LSUs (Fig. 4).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 76,
+        "text": "Manure, 1000 tons (Fig. 5).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 77,
+        "text": "Nitrogen, 1000 tons (Fig. 6).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 78,
+        "text": "The authors would like to acknowledge Torbj\u00f6rn Jansson (Swedish University of Agricultural Sciences) for providing baseline results from the CAPRI model. The authors also would like to thank the editor and two anonymous referees for their helpful suggestions on this paper, as well as Richard Foley for helping with the language.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 79,
+        "text": "Poland 5,136,100 21,879,600 2,089,000 34,372,600 6,298,400 69,775,700 Denmark 15,620,800 3,590,000 14,675,700 238,300 269,300 34,394,100 Germany a 20,326,700 4,440,900 3,771,800 770,700 456,200 29,766,300 Sweden 10,922,000 4,827,000 2,667,000 202,000 174,000 18,792,000 Finland 5,257,300 6,046,600 1,514,800 572,400 153,300 13,544,000 Lithuania 892,100 8,245,200 2,065,500 1,067,300 42,400 12,312,500 Latvia 4,664,700 2,221,300 438,800 42,200 218,300 7,585,300 Estonia 1,011,000 1,888,000 579,000 71,000 72,000 3,621,000",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 80,
+        "text": "The work presented is part of the BONUS GO4BALTIC project: http://projects.au.dk/go4baltic/ The project is supported by BONUS (Art 185), funded jointly by the EU and national funding institutions in Denmark (the Innovation Fund), Estonia (Estonian Research Council ETAG), Finland (Academy of Finland), Poland (NCBR) and Sweden (FORMAS). The work has also received funding from Baltic Eye at the Stockholm University Baltic Sea Centre.",
+        "references": [],
+        "footnotes": [],
+        "urls": [
+            "http://projects.au.dk/go4baltic/"
+        ]
+    },
+    {
+        "id": 81,
+        "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 82,
+        "text": "We employ a discrete-time Markov chain model to depict the changes in farm size over time. The model has five different states, four corresponding to size classes and the fifth indicating entry to or exit from livestock farming. The model is a traditional stationary model with given prior information, which comprises observations of farm sizes for each country from the years 2003 to 2013. Thus, we estimate a separate model for each country. As there are very few observations over time, we use the generalized maximum entropy (GME) method 8 to estimate the Markov chain model. The transitions between time points t and t + 1 and within and between the five classes evolve according to our stationary Markov model (5):",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 83,
+        "text": "where for t = 2003, \u2026, 2012, y t+1 \u2208 \u211d 5 are the observed proportions of farms falling into each of the five classes at time point t + 1; x t \u2208 \u211d 5 the observed proportions of farms falling into each of the five classes at time point t; P \u2208 \u211d 5x5 an unknown transition matrix; u t \u2208 \u211d 5 a vector of disturbances with zero mean bounded within a fixed support vector v and a weight vector w t such that each element in u t , u it = v 1 w it1 + \u22ef + v m w itm , 9 ; and \u2032 denotes the transpose of a vector. The elements in matrix P and the weights w t fulfil the following constraints (6-8).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 84,
+        "text": "for all, i = 1, \u2026, 5 and t = 2003, \u2026, 2012. These constraints guarantee that the estimated transition matrix P contains proper transition prob- abilities. Note that the first observation, y 2003 , is an initial value in the model and therefore the effective sample available for estimation is 10 observations (transitions). We rewrite the model (1) to contain all these ten observed transitions in the data (9): where Y 10 is a vector of 50 elements. The first 10 elements contain the proportions in the class of farms with fewer than 50 animals from the years 8 See e.g. Karantininis, 2002 for a detailed presentation of the GME estimation method and the stationary Markov chain model employed here. 9 In the SAS ENTROPY procedure v= (\u2212c,-c/2,0,c/2,c), where a large c is chosen. Thus, m = 5 and the five support points and prior five weights are selected such that hypothesis tests can be performed without adding significant bias to the estimation.",
+        "references": [
+            "<biblStruct xml:id=\"b20\">\n<analytic>\n<title level=\"a\" type=\"main\">Information-based estimators for the non-stationary transition probability matrix: an application to the Danish pork industry</title>\n<author>\n<persName><forename type=\"first\">K</forename><surname>Karantininis</surname></persName>\n</author>\n</analytic>\n<monogr>\n<title level=\"j\">J. Econ</title>\n<imprint>\n<biblScope unit=\"volume\">107</biblScope>\n<biblScope from=\"275\" to=\"290\" unit=\"page\"/>\n<date type=\"published\" when=\"2002\">2002</date>\n</imprint>\n</monogr>\n</biblStruct>"
+        ],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 85,
+        "text": "O. Niskanen, et al. Agricultural Systems 179 (2020) 102771",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    },
+    {
+        "id": 86,
+        "text": "Phosphorus, 1000 tons (Fig. 7).",
+        "references": [],
+        "footnotes": [],
+        "urls": []
+    }
+]
